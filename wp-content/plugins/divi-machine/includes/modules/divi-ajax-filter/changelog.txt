@@ -1,0 +1,542 @@
+/* CHANGELOG */
+* VERSION 2.3.3 - 15/02/23
+* FIX - Filtering issue when page is loading with parameter based on Onload Terms
+* FIX - Divi Builder save issue
+* FIX - Thumbnail module style issue
+* FIX - Conditional Logic Issue
+*
+* VERSION 2.3.2 - 10/02/23
+* FIX - Overlay for thumbnail module was not working
+* FIX - Price Filter issue
+* FIX - Variation Price Filter setting on Divi Options page
+* FIX - Include Terms(ACF) not working with ACF datepicker order
+*
+* VERSION 2.3.1 - 09/02/23
+* FIX - non active icon for buttons
+* FIX - Filter issue with include categories for "product variations as a single product"
+* FIX - Product Loop pagination issue when no filter posts module and "Disable Ajax Filter" option is enabled
+* FIX - Style broken for select style of checkbox/radio filter item
+* FIX - Product Price filter issue
+*
+* VERSION 2.3 - 02/02/23
+* NEW ADDITION - Variation Image Change on archive pages with BodyCommerce
+* MOD - "Sorry, no posts" editable text in Machine Loop module
+* MOD - Added Hide Marker Label option for Archive Loop module
+* MOD - Filter Variation Price Option
+* MOD - Added Custom Meta Data option to Filter Posts module
+* MOD/FIX - Select Style Checkbox/Radio filter options
+* FIX - Filter By Post Object(Not Multiple)
+* FIX - Orderby for Post Object filter options
+* FIX - Url with parameter occur error when Woocommerce product attribute is not defined
+* FIX - Reset button shows all products when there is Search Posts module with Filter Posts module on Category page
+* FIX - thumbnail icon default if none is selected (fallback to make sure)
+* FIX - Issue with Orderby ACF DateTime picker
+* FIX - Extra css was affecting arrows at wp backoffice
+* FIX - Customize text snippets for search results on ajax load
+* FIX - Filter Param not working
+* FIX - Add help videos for all modules
+* FIX - Added opacity for results count and order by module on ajax filter event
+* FIX - Filter image swatch not showing in some cases
+* FIX - Load more and infiite load not working for some, JS error
+* FIX - Adding default Divi Module classnames (such as text aligment)
+* FIX - Filter params was adding to all loops on the page. Made it only add to the main loop
+* FIX - Fix Map Marker Clusterer issue
+* FIX - Variation Swatches Image style issue
+* FIX - Loadmore posts instered to wrong element
+* FIX - Map Capability with one ACF Map field for Multiple CPT on each archive page
+* FIX - Hide Entire module when filter options goes empty
+* FIX - Relevanssi compatibility
+* FIX - Filter Count issue
+* 
+* VERSION 2.2.0 - 16/11/22
+* NEW ADDITION - Search/Filter By Stock Status
+* NEW ADDITION - Show Post Detail in same page from Archive Loop module
+* MOD - Added "Include Option" on Filter Posts Item module
+* MOD - Gutter row gap and column default values of 25px
+* MOD - Added setting to add padding and margin around the filter item (works well with border radius etc)
+* MOD - Loading icon on map markers while ajax content is loaded
+* FIX - Border Radius was not working for filter items
+* FIX - Reset filter issue
+* FIX - Thumbnail and Title new tab was opening in the same new tab
+* FIX - Map Marker Tooltip style issue
+* FIX - Modules Style in Post Modal
+* FIX - Issue with Show Empty filter options for Product Attributes
+* FIX - Divi Ajax Filter, Range Filter, Upper limit not showing for numeric value
+* FIX - Undefined function get_field_object acf when acf is not installed
+* FIX - Removal of inline styles at filter item button container and input
+* FIX - ACF Range: From and To values in the range are now taken from ACF min and max and not from and to settings / Range Values Type: From ACF Value (From and To)
+* FIX - Use Decimal type automatically for Filter Value Type when acf filter type is Number/Range
+* FIX - Radius Field Value option display condition
+* FIX - Divi Ajax Filter Module - $ is not a function
+* FIX - Image Popup issue after load more
+* FIX - Select2 issue on Search Posts module
+*
+* VERSION 2.1.1.1 - 06/10/22
+* FIX - Post Number missing from product loop module 
+*
+* VERSION 2.1.1 - 06/10/22
+* FIX - ProductLoop module Loadmore styling issue
+* FIX - Filter Item Param issue on load with filter parameter
+* 
+* VERSION 2.1 - 04/10/22
+* FIX - Exclude category option issue
+* FIX - Users's Post only for Archive Loop module
+* FIX - loading animation with filtering, load more or pagination is not in the center rather than at the top
+* FIX - admin CSS conflict
+* FIX - Post Object filtering & searching
+* FIX - Map Radius style issue
+* FIX - Filter by variation stock status
+*
+* VERSION 2.0.9.2 - 26/08/22
+* MOD - Added the filter for machine thumbnail so you can specify the thumbnail image with a filter
+        - et_pb_portfolio_image_height
+        - et_pb_portfolio_image_width
+* FIX - Adding license keys to multisite did not work
+* FIX - Search Button issue
+* FIX - Duplicated posts issue when load more
+* FIX - Added repeater & group fields in acf fields option
+*
+* VERSION 2.0.9.1 - 17/08/22
+* MOD - Notify Ray ID when site is blocked by diviengine.com for active & deactive license code
+* FIX - Fix filter issue
+*
+* VERSION 2.0.9 - 16/08/22
+* NEW ADDITION - Map Radius Search with Divi Machine
+* FIX - Fix conditional category issue
+* FIX - Fix filter button alignment issue when side by side setting is enabled
+* FIX - Can't change parent category for conditional categories after filtering
+* FIX - Filtering issue on mobile
+* FIX - Translation issue with Divi Machine or Divi BodyCommerce
+* FIX - Filter Count issue when meta key has '-'
+* FIX - PHP notice related with woocommerce
+* FIX - Fix masonry issue after load more
+* FIX - label for input text accessibility
+* FIX - Fix Price filter when load more
+* FIX - Fix Sales Only issue on filtering/pagination
+* FIX - Filter issue for checkbox acf field range filter
+* FIX - License code deactivate issue
+*
+* VERSION 2.0.8 - 27/06/22
+* MOD - Added setting to sort the posts in the archive loop by linked post order
+* FIX - Style issue for bodycommerce modules when loading more
+* FIX - Select/Check default value for "0" option
+* FIX - Filter Count issue
+* FIX - Fix Hide Empty options setting issue for Select Filter
+* FIX - Fix Range Filter parameter issue
+* FIX - Error message with Ajax Filter and Machine active together
+* FIX - Fix filtering when there is special character in filter parameter
+* FIX - Fix map pin issue after filtering
+*
+* VERSION 2.0.7 - 09/06/22
+* NEW ADDITION - Product Price: Min price can be set as the lowest price in the store, category or custom
+* MOD - Machine, post object will work inside a repeater now
+* FIX - Filter js issue
+* FIX - Pagination issue with offset setting
+* FIX - Scroll to top after ajax update issue when pagination is clicked
+* FIX - Map marker js issue
+* FIX - OrderBy issue with Product Loop module
+* FIX - Show Always Reset button issue
+* FIX - Show Empty Filter option issue
+* FIX - Filter item style issue
+* FIX - HTML was not working in post tiles because of esc_html
+* FIX - Fix refresh filtering when parameter value is 0
+* FIX - Fix filter count issue when there is product price range in Filter module
+* FIX - Hide empty filter optoins for select was not working
+*
+* VERSION 2.0.6 - 26/05/22
+* FIX - Fixed Style breaking when use Machine Archive Loop module for products
+* FIX - Fixed orderby module issue
+* FIX - Removed indent padding from being added when checkboxes are inline
+* FIX - Fixed style to bring module tooltip over ajax filters.
+* FIX - Fixed Style breaking when use Machine Archive Loop module for products.
+* FIX - Fixed orderby module issue.
+* FIX - Remove Range Slider value when reset is clicked
+* FIX - Mobile toggle was not working - button was hidden. Now it is visible so you can toggle the filter
+* FIX - Filter Count issue for some taxonomy terms
+* FIX - Range Custom Values - no to and from appear when this is selected
+*
+* VERSION 2.0.5.1 - 22/05/22
+* FIX - Fixed icons and toggle buttons showing wrong or at wrong time 
+*
+* VERSION 2.0.5 - 20/05/22
+* FIX - Pagination/Orderby not working for some situations 
+* FIX - PHP warning 
+*
+* VERSION 2.0.4 - 20/05/22
+* FIX - Fixed error with Visual Builder post type selection
+* FIX - Created separate class for Visual Builder Thumbnail module
+* FIX - removal of eval() code which some security plugins did not like 
+*
+* VERSION 2.0.3 - 19/05/22
+* FIX - Version number was not changed which caused the notice to keep updating
+*
+* VERSION 2.0.2 - 18/05/22
+* FIX - Fatal error when Ajax Filter, Machine and BodyCommerce are active together or 2 of them 
+*
+* VERSION 2.0.1 - 18/05/22
+* FIX - Fixing Filter issue with ACF field
+* FIX - Reset Filter issue
+* FIX - Removing sanitize_text_field as this removed whitespace and made filter not work well in some cases
+* FIX - Loadmore issue
+* FIX - Fatal Errors
+*
+* VERSION 2.0 - 18/05/22
+* NEW ADDITION - Added escaping and sanitizing functions to increase security 
+* NEW ADDITION - Full Visual Builder Compatibility 
+* NEW ADDITION - Specify the custom post to be displayed in the Divi Builder Page Settings or Meta Field in Divi Library
+        - Visual Builder:
+                - Page Settings > Divi Engine > Visual Builder > Example Post Type
+        - When no page settings are available (like in the Divi Library)
+                - Side bar > Divi Engine > Visual Builder > Example Post Type
+* NEW ADDITION - Added style to side slide the filter (now have normal, toggle and side slide) 
+        - Add a button or similar. Add a CSS ID to the button. Add this ID to the filter post 
+        - When you click this button, the filter will slide in
+* MOD - ADD FiboSearch Compatibility
+* MOD - Moved CSS and JS out to not be minified with the rest, this way it will only be loaded when you need it 
+* MOD - Speed improvement of the Loop Layouts 
+* MOD - Speed improvement of the Post Count (one massive site we tested, went from 18s down to 1.5s)
+* MOD - Merged "indent and prefix for sub categories and sub taxonomies"
+* MOD - Added styling options for reset button to be different from search button
+* MOD - Filter Module
+        - Moved design settings into design tab 
+        - Created Subtoggles text styles, active/inactive styles 
+        - Hide settings when they are not needed to be more clear and less confusing
+* MOD - added setting to change number of pins showing on map if showing ALL pins
+* FIX - Map Cluster on loadmore 
+* FIX - Category disply mode issue for post type
+* FIX - Map address & radius in one row
+* FIX - Fix onload term issue
+* FIX - Category indent issue
+* FIX - Title styling not working for some cases
+* FIX - background setting issue for header of filter item
+* FIX - ACF field with reserved name price was not sorting properly at the orderby module
+* FIX - Prevent filtering & getting filter counts when nothing is changed in filter module
+* FIX - Prevent collapsing when there is checked child option on load
+*
+* VERSION 1.9.3.3 - 07/03/22
+* FIX - JS error on frontend
+*
+* VERSION 1.9.3.2 - 03/03/22
+* MOD - Added setting to choose "indent" instead of "prefix" for the child categories in the filter. Define the space you want it to indent by
+* MOD - added main-loop class for machine loop if selected
+* FIX - Removed variation swatches JS code from BC so that it does not effect the order bump
+* FIX - Click on parent when Collapsible was not working, it would not check the parent checkbox
+* FIX - Fixed issue with Divi Machine gallery not loading after ajax load
+* FIX - prefix indent was causing space - removed the space
+*
+* VERSION 1.9.3.1 - 17/01/22
+* FIX - PHP errors showing on Machine archive/category pages
+* FIX - External URL for link whole grid was not working on load more
+*
+* VERSION 1.9.3 - 13/01/22
+* MOD - Remove . before each module name
+* MOD - Added option to add custom values for the range slider. So you can have the steps as 0,100,1000,10000 for example.
+* MOD/FIX - Customised settings so that you can change the border radius and box shadow on the select, range and radio boxes
+* MOD - Add Include Custom Taxonomy Terms in ProductLoop module
+* MOD - Linked Posts by ACF taxonomy field
+* FIX - BC - when scroll to orderby on mobile - was not working, it will default to the archive loop on mobile to scroll to if no orderby
+* FIX - ICON issue on Machine Archive Loop module
+* FIX - Filter issue by search keyword when reload page
+*
+* VERSION 1.9.2 - 24/11/21
+* MOD - Put all modules into folder "Divi Ajax Filter"
+* FIX - Multiple product tag filter issue(PHP error)
+* FIX - Archive Loop issue on Search Page
+* FIX - Machine Loop issue for ACF filter
+* FIX - Remove BodyCommerce scripts on Divi Machine
+* FIX - Variation Swatch normal style issue(Opacity)
+* FIX - Multiple post type selection issue after new CPT is added on Machine Loop
+* FIX - Price range filter when tax option is enabled
+* FIX - Styling issue after filtering on normal page
+*
+* VERSION 1.9.1 - 12/11/21
+* FIX - Improved fixing Icon issue with new Divi Update from Divi 4.13.0
+*
+* VERSION 1.9 - 10/11/21
+* MOD - Add include category feature for linked post Archive Loop
+* MOD - Add ACF filter for Related Post Archive Loop
+* MOD - Add Archive Loop filter by non empty ACF value (Get posts only that specific acf value is set)
+* MOD - Filter Items order by menu_order
+* FIX - Fix button product loop overwriting atc module
+* FIX - ICON issue for Divi 4.13.0
+* FIX - Multiple post category filter issue
+* FIX - Remove Filter Param issue on combination category filter
+* FIX - Loadmore issue
+* FIX - Include tag and categories were applied for default woocommerce layout
+* FIX - Filter Param & Filter issue when filter by button
+* FIX - ACF Date Picker order by today to +custom days
+* FIX - Parent Category expand icon nonclickable issue
+* FIX - Search/Filter field padding/margin issue
+*
+* VERSION 1.8.1 - 28/10/21
+* FIX - Styling issue after ajax call
+* FIX - PHP Errors on modules
+* FIX - Visual Builder loop preview issue
+* FIX - Exclude options on Filter item module
+*
+* VERSION 1.8 - 21/10/21
+* NEW ADDITION - Filtering options orderby (Category/Tag/Taxonomy/ACF) - ability to change the order of the filter items in the select drop down for example.
+* FIX - Checkbox Type ACF field for "Numeric" filter value type Filtering issue
+* FIX - Order by Wishlist posts per page issue
+* FIX - Styling issue after ajax
+* FIX - Include/Exclude category on Product Loop module for ajax filtering/pagination
+* FIX - Relationshiop ACF field support for Linked Post on Machine Archive loop
+* FIX - Include tag issue on Archive Loop
+* FIX - Filter Items "Show More/Show Less" issue
+* FIX - Multiple Level Conditional category filter option issue
+* FIX - Search Filter Item js error
+*
+* VERSION 1.7 - 12/10/21
+* NEW ADDITION - Added multiple post type selection - Divi Machine only for now
+* NEW ADDITION - Added Product Variation Type in ProductLoop module - You can now show the product variations as seperate products on the product loop
+* NEW ADDITION - Added "Exclude Tags" in machine loop
+* NEW ADDITION - ACF field Sort type added for Machine Loop
+* MOD - Added de_ajaxfilter_before_shop_loop_item/de_ajaxfilter_after_shop_loop_item hooks on Product Loop
+* FIX - Order by ACF field issue when filtering
+* FIX - Filtering issue with tax_query or meta query is empty in original query
+* FIX - Map pins for ajax loadmore
+* FIX - Style Confliction with other modules for ajax call
+* FIX - Filter Count issue
+* FIX - Filter issue for conditional category issue when child is empty
+* FIX - Filter issue when press enter key to search
+* FIX - Load more issue when inside loop module is in layout
+*
+* VERSION 1.6.4 - 06/09/21
+* FIX - Pagination string translation issue
+* FIX - Product tag orderby issue on filter module
+* FIX - Remove Filter issue
+* FIX - Thumbnail module php issue
+* FIX - Add Dynamic CSS compatibility code
+* FIX - Ajax add to cart issue after loadmore/infinite scroll
+* FIX - Exclude category issue
+* FIX - Product Category filter issue
+* FIX - Related posts by category issue
+* FIX - Ajax Add to cart issue after loadmore/infinite
+* FIX - Bullet issue when use Machine Loop for Product list
+*
+* VERSION 1.6.3 - 20/08/21
+* MOD - Added de_ajaxfilter_before_shop_loop_item/de_ajaxfilter_after_shop_loop_item hooks in ajax call
+* FIX - Filter issue on category page
+* FIX - Product duplication issue when loadmore/infinite
+* FIX - Product Loop html markup issue
+* FIX - Search by String url issue
+* FIX - Orderby issue after loadmore
+*
+* VERSION 1.6.2 - 13/08/21
+* MOD - Added setting to change the text of "yes" and "no" for the true/false field
+* FIX - Filter module has opened after ajax in mobile when auto close option is enabled
+* FIX - Select Filter option issue(current value is not selected) when page loaded with its filter param
+* FIX - PHP error for search when woocommerce is not installed
+* FIX - Enabled "Scroll To Top After Ajax Update" option for Load More/Pagination/Infinite mode of Archive Loop module
+* FIX - Price filter issue
+* FIX - PHP error on Filter option module for getting acf fields
+* FIX - PHP error on getting icon css on Filter Option Module
+* FIX - PHP error on Thumbnail module
+* FIX - filtering issue for category on category page
+* FIX - Decimal filtering issue
+* FIX - Prevent form submitting when press enter on search field for filter module
+* FIX - Add relevance sort option in MachineLoop module
+* FIX - Js minify issue for remove filter parameter
+* FIX - Add relevance sort option in Product Loop module
+* FIX - provide woocommerce_before_shop_loop_item/woocommerce_after_shop_loop_item hooks in custom loop layout for product module
+* FIX - Related Posts issue
+* FIX - Remove Filter Param issue
+*
+* VERSION 1.6.1 - 26/07/21
+* MOD - Add "Exclude Categories" option to ArchiveLoop module
+* MOD - ADD Filter option for "True or False" type ACF field
+* MOD - Add "Linked/Related" posts by post object ACF field.
+* FIX - PHP error for class definition duplication
+* FIX - Wireframe blank issue
+* FIX - Post Modal css conflict issue
+* FIX - Fix PHP Notice for shortcode slug of Title, Thumbnail modules
+*
+* VERSION 1.6.0.3 - 13/07/21
+* MOD - Remove filter for current taxonomy on archive page
+* FIX - Sort by issue by meta value
+* FIX - Sort by issue for combination of default sort options
+*
+* VERSION 1.6.0.2 - 09/07/21
+* FIX - AND for tag taxonomy filter
+* FIX - order by issue
+* FIX - Infinite scrolling issue
+* FIX - Range Filter reset issue
+*
+* VERSION 1.6.0.1
+* FIX - Fixed issue with order by "menu_order title"
+* FIX - Fixed price filter issue on Standalone
+* FIX - Fixed js issue for range filter
+*
+* VERSION 1.6 - 07/07/21
+* NEW ADDITION - Load More and Infinite Scroll
+* NEW ADDITION - Select2 option for the select filter items
+* NEW ADDITION - Added availability to hide empty option for select filter
+* ADD - Added settings to select Load More type (Load More, Pagination, Infinite Scroll)
+* MOD - Added settings to change toggle color for the sub-category icon - default color #666
+* MOD - Added settings to select max product price for range filter
+* FIX - Moved radio count over to the left when you have the sub-category icon toggle so do not overlap
+* FIX - Radio text not style
+* FIX - masonry not working well after ajax load if no images
+* FIX - Javascript issue for "All" option select of Checkbox style filter
+* FIX - Multiple "And" operation issue
+* FIX - Product Attribute Checkbox filter option issue
+* FIX - masonry layout not working for posts for ajax filter
+* FIX - Hide Empty Option issue for Select2(Disable options for empty options on Select2)
+* FIX - Hide Whole Filter option when there is no available option
+*
+* VERSION 1.5.2 - 31/05/21
+* MOD - New setting to define a delay in searching text while typing (much how you search for plugins in Wordpress admin)
+* MOD - Do not search a text field if empty
+* FIX - Reset Filter issue
+* FIX - Filter by Category issue
+* FIX - Filter Count for taxononmy issue
+*
+* VERSION 1.5.1 - 25/05/21
+* FIX - Archive Loop inside archive loop issue
+* FIX - Filter by ratings issue
+* FIX - orderby random issue
+* FIX - Radio options hiding on load which should not
+*
+* VERSION 1.5 - 19/05/21
+* ADD - Add Filter Condition for Checkbox style filter option
+* ADD - Auto Detect post type feature for Loop module
+* FIX - Display issue of Out of Stock products
+* FIX - Sort By issue
+* FIX - Remove Filter Param issue
+* FIX - Show More / Less not working
+*
+* VERSION 1.4.1 - 12/05/21
+* FIX - Fixed Loop layout not showing in settings
+*
+* VERSION 1.4 - 11/05/21
+* MOD - Speedup load assets on specific modules
+* MOD - Add translate availability of Filter Option names
+* MOD - Trigger "divi_filter_completed" jquery event after filtering & load more is completed
+* MOD - Added script for module links after ajax
+* FIX - Filter Conditional Logic issue
+* FIX - Machine multiple include taxonomies
+* FIX - Load more offset issue
+* FIX - Machine Loop orderby acf datepicker issue
+* FIX - Video Size issue after filtering
+* FIX - Add filtering callback
+* FIX - Filter Param remove issue
+* FIX - Add availability to add more level of contidional logic
+* FIX - Hide Out of stock products issue
+* FIX - Machine Loop keep query params when reloading after filtering issue
+* FIX - Divi Machine & BodyCommerce & Ajax Filter module compatibility issue
+* FIX - Link to whole grid for form elements like add quantity & ajax add to cart button issue
+* FIX - resizeAllGridItems not defined issue
+* FIX - Video acf item size issue
+* FIX - Filter count issue
+* FIX - Filter Param issue when select filter option
+* FIX - Include cat issue on non main loop when filter param query is set
+* FIX - Masonry item image issue after ajax
+* FIX - Go to the section issue when click pagination for normal pagination style
+* FIX - Get count issue for Taxonomy filter option of the POST
+* FIX - Order by Price issue for Product Loop module.
+* FIX - Masonry grid resize issue after Ajax filter & loadmore
+* FIX - filter by price for Product Loop module
+* FIX - Multiple Category Filter options
+* FIX - Reset Filter & Remove Filter Param issue
+* FIX - Regenerate Random number for order for every Archive loop
+* FIX - Taxonomy filter issue on Machine Loop
+* FIX - Several Filter issue related with multiple filter options such as remove Filter issue
+* FIX - Remove console.log from masonry
+* FIX - Archive Loop pagination issue for non product loop
+*
+* VERSION 1.3.1 - 18/03/21
+* MOD - Conditional logic work with search module from Divi Machine
+* FIX - Columnn number on tablet and mobile 
+* FIX - fixed scroll to when load more
+* FIX - Columns issue after ajax call
+* FIX - Filter issue with decimal value
+* FIX - Meta query duplication issue
+* FIX - Random orderby issue
+* FIX - Filter count issue by pagination
+* FIX - PHP issues on ArchiveLoop module
+* FIX - Product loop style issue on normal page
+* FIX - "Show result count" option issue
+* FIX - Filter issue with unvalid param url(When search by button)
+* FIX - Offset issue with all posts(Posts Per page : -1)
+* FIX - "Only show available options" issue for filter options when pagination
+* FIX - Remove filter param issue
+* FIX - Reset filter issue (when all option is disabled for radio type filter)
+* FIX - Modal popup issue after filtering
+* FIX - Filter Count issue when there are several same category filter option
+* FIX - Collapsible Categories not working
+* FIX - Column issue when filtering after no result
+* FIX - Made pagination "scroll to" setting to work only for pagination
+* FIX - Set default category when reset for category page
+* FIX - Archive Loop module default acf name & value for checkbox type field issue
+* FIX - Conditional logic for acf select box
+* FIX - Radio long label not lining up
+*
+* VERSION 1.3 - 05/03/21
+* NEW ADDTION - Conditional Logic for filter options
+* NEW ADDITION - Enhanced category options
+        - Show Only Parent Categories
+        - Show Only Sub Categories of Selected Category (you then select a category)
+        - Show Sub Categories of Current Category (Category page only)
+        - Show All Categories and Sub categories
+* NEW ADDITION - Setting to make each filter item toggle on mobile only 
+* NEW ADDITION - Setting to limit the height of the radio filter, you can click on text to show more (expand) and show less (collapse)
+* MOD - Changed the filter items settings to be more clear and easier to use - just layout
+* MOD - Filter column size on desktop, tablet and mobile when using the fullwidth column style.
+* MOD - Post Title: moved margin to module and padding to title
+* MOD - Added setting to show related posts using post categories when selecting our custom post (usually custom tax category)
+* MOD - Added sort by price and stock status for product loop module
+* MOD - Added setting to set the value type(string, number, decimal)
+* MOD - Added option to auto close the filter on mobile when making a selection
+* FIX - Fixed thumbnail margins not working 
+* FIX - Range slider for product attribute that contains decimal value
+* FIX - php notice
+* FIX - Filter label not hiding in some cases
+* FIX - fixed column count when filtering
+* FIX - minor CSS bugs
+* FIX - reset issue with Product rating filter
+* FIX - CSS style issue for ajax calls
+* FIX - Module duplication issue
+* FIX - Pagination issue when post offset is 0
+*
+* VERSION 1.2 - 16/02/21
+* MOD - setting to show reset button always
+* FIX - JS error with range slider if no max value is set
+* FIX - Reset button show hide issue
+* FIX - Filter param tag undefined issue
+* FIX - Filter issue when using 'category' as taxonomy of custom post type or in ACF field
+* FIX - Filter by Numeric issue
+* FIX - Load More & Filtering issue
+*
+* VERSION 1.1 - 11/02/21
+* NEW ADDITION - Added setting to show a button that when they click will toggle the filter on mobile
+* MOD - New setting to only show category/tags/attributes/custo tax that are assigned to the posts
+* MOD - Added Product Attribute Range type
+* MOD - Added setting to scroll down to a section on ajax update - choose posts, orderby or filter.
+* MOD - Added option to open the whole grid in a new tab
+* FIX/MOD - Added box shadow for thumbnail image
+* FIX - Link whole grid on filter
+* FIX - filtering issue for multiple loop module
+* FIX - filter count issue
+* MOD - Hide Reset if any filter is not selected
+* MOD - Add option to exclude category on machine loop module
+* FIX - Map pin issue
+* FIX - Non woocommerce Archive loop module php bug
+* ADD - Add product weight & product rating filter
+* FIX - Flip image issue on Thumbnail module
+* FIX - Loadmore issue when include multiple categories & tags
+* FIX - order by issue for custom query loop
+*
+* VERSION 1.0.2 - 04/12/2020
+* FIX - Fixed pagination issue with BC
+* FIX - PHP fatal error when installed on BC
+* FIX - linked post tilte bug
+* FIX - Product Title style
+* FIX - Product List not working
+* FIX - double box shadow setting for thumbnail
+* MOD - Sync with bd ( modify js object name, fix default sortorder etc)
+*
+* VERSION 1.0.1 - 26/11/2020
+* FIX - Same function names as Machine - fixed
+*
+* VERSION 1.0 - 26/11/2020
+* Launch Initial Version

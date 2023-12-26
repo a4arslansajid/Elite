@@ -1,0 +1,1100 @@
+﻿/* CHANGELOG */
+VERSION 5.4.3 - 15/02/23
+* MOD - Added compatibility for repeater post object in the table, will show the post name if you have the return type as array.
+* MOD - Carousel module - Include current post setting added
+* FIX - WPML issue on View Post Button module
+* AJAX FILTER UPDATE 2.3.3
+        * FIX - Filtering issue when page is loading with parameter based on Onload Terms
+        * FIX - Divi Builder save issue
+        * FIX - Thumbnail module style issue
+        * FIX - Conditional Logic Issue       
+*
+VERSION 5.4.2 - 10/02/23
+* COMPATIBILITY - PHP 8 ERRORS, TESTED UP TO 8.1
+* MOD - ACF Item, changed setting to be "Checkbox/Radio/Select Return Type" - it will work with select for now too
+* MOD - View Post Btn, Added setting to make it not as a button and just text
+* MOD - Gallery module, ACF Pro Gallery field now works inside a group
+* FIX - ACF Item not showing in some situations (post object)
+* FIX - Carousel module, autoplay video on load
+* FIX - Missing CPT UI and WOO Products on map post type setting
+* AJAX FILTER UPDATE 2.3.2
+        * FIX - Overlay for thumbnail module was not working
+        * FIX - Price Filter issue
+        * FIX - Variation Price Filter setting on Divi Options page
+        * FIX - Include Terms(ACF) not working with ACF datepicker order
+*
+VERSION 5.4.1 - 30/01/23
+* FIX - Issue with Child Theme, Machine not loading
+*
+VERSION 5.4 - 30/01/23
+* MOD - ACF Item - Added option to defer the video if oembed. This means that it will show thumbnail until you click on it to play 
+* MOD - Archive Loop module related by custom taxonomy
+* FIX - ACF Item module image issue
+* FIX - Setting page php warning issue
+* FIX - Undefined acf_get at archive loop on category pages
+* FIX - Missing prefix and suffix on ACF item field type link
+* FIX - Undefined key array auto-detect on archive loop
+* FIX - undefined variable Wishlist_ids at machine loop
+* FIX - Extra css was affecting arrows at wp backoffice
+* FIX - Post Slider, Post Carousel module doesn't work for specific ACF field value (Multiple selection field)
+* FIX - Gallery module not loading when Same Height Slides setting enabled with Variable Width and Adaptive Height
+* FIX - ACF Item 3161  Illegal string offset alt error
+* FIX - Admin label not showing in ACF repeater
+* FIX - Undefined array key ACFItem.php on line 3555
+* FIX - Property ID on Array ACFItem on line 2879
+* FIX - Undefined key action on functions.php on line 1253
+* FIX -  Undefined array key "divi_disable_translations"
+* FIX - Trying to access array offset on value of type bool functions php 1146
+* FIX - Conditional Logic - checkbox add value as class, when array it was not working
+* FIX - Unnecessary class to #et-main-area
+* FIX - Attempt to read property "post_title" on null init.class.php
+* FIX - $acf_get['value'] offset validation
+* FIX - Trying to access array offset on value of type bool ACF Item
+* FIX - Undefined variable $acf_type
+* MOD - "Sorry, no posts" editable text in Machine Loop module
+* FIX - Property ID on Array ACFItem.php
+* FIX - Key value  ACF FIELD  type select
+* FIX - Carousel module issue
+* FIX - Check if Divi is active, if not, do not go further (not give fatal error)
+* FIX - No icon by default when creating custom post
+* FIX - No styling when creating a post - it only shows once you have saved it.
+* FIX - Search Form issue when multiple forms are on same page
+* FIX - Added min PHP version 7.0
+* FIX - Fix 8.1 PHP Deprecated errors
+* FIX - Button text to be another ACF field in repeater was not working well
+* FIX - ACF Item not working on taxonomy page
+* FIX - Add muted attribute for auto playing videos in ACF Item module for Google Chrome Support
+* FIX - Added support for autoplaying videos within a Carousel Module
+* FIX - HTML5 tags parsing in DOMDocument:loadHTML function
+* FIX - Product CPT(not from Woocommerce) Archive Loop issue
+* FIX - Map pins on Multiple CPTs
+* FIX - ACF Item module "Hide this and row" issue
+* FIX - Special Character issue on create post & taxonomies with Machine
+* AJAX FILTER UPDATE 2.3.0
+        * MOD - "Sorry, no posts" editable text in Machine Loop module
+        * MOD - Added Hide Marker Label option for Archive Loop module
+        * MOD - Filter Variation Price Option
+        * MOD - Added Custom Meta Data option to Filter Posts module
+        * MOD - Thumbnail Image Change on Variation
+        * MOD/FIX - Select Style Checkbox/Radio filter options
+        * FIX - Filter By Post Object(Not Multiple)
+        * FIX - Orderby for Post Object filter options
+        * FIX - Url with parameter occur error when Woocommerce product attribute is not defined
+        * FIX - Reset button shows all products when there is Search Posts module with Filter Posts module on Category page
+        * FIX - thumbnail icon default if none is selected (fallback to make sure)
+        * FIX - Issue with Orderby ACF DateTime picker
+        * FIX - Extra css was affecting arrows at wp backoffice
+        * FIX - Customize text snippets for search results on ajax load
+        * FIX - Filter Param not working
+        * FIX - Add help videos for all modules
+        * FIX - Added opacity for results count and order by module on ajax filter event
+        * FIX - Filter image swatch not showing in some cases
+        * FIX - Load more and infiite load not working for some, JS error
+        * FIX - Adding default Divi Module classnames (such as text aligment)
+        * FIX - Filter params was adding to all loops on the page. Made it only add to the main loop
+        * FIX - Fix Map Marker Clusterer issue
+        * FIX - Variation Swatches Image style issue
+        * FIX - Loadmore posts instered to wrong element
+        * FIX - Map Capability with one ACF Map field for Multiple CPT on each archive page
+        * FIX - Hide Entire module when filter options goes empty
+        * FIX - Filter Count issue
+*
+VERSION 5.3 - 17/11/22
+* MOD - Show Post Modal Detail in the section on the same page
+* MOD - Added new setting "Specific Posts" for related post objects. This allows you to show specific posts that you assign as the post object
+* MOD - Added Post Title item to OrderBy module
+* MOD - Added setting to change the position of the icon in the ACF Item module
+* MOD - Loading icon on map markers while ajax content is loaded
+* MOD - Added the option to include current taxonomy term posts only on carousel module
+* MOD/FIX - Added missing label for when you create the custom post "View Items" - before it was just taking the view item and adding "s" but some languages this is not ok.
+* MOD/FIX - If range is 0, hide the value, icon, label etc
+* FIX - Fixed conditional not hiding row/section with link field 
+* FIX - Fixed conditional not hiding the correct row when using speciality section
+* FIX - Fixed issue with tags not showing in the meta module for pages
+* FIX - Gallery lightbox not working after update
+* FIX - Fixed map tooltip layout style issue
+* FIX - Add option to redirect to Wordpress Auto
+* FIX - Fixed categories & taxonomies not being excluded in the meta item module
+* FIX - Initiate Tabs after filter
+* FIX - "License Key can't be empty" error for settings page
+* FIX - ACF Item image field - link new tab was not working
+* FIX - Alt text not working on images
+* FIX - Undefined function get_field_object acf when acf is not installed
+* FIX - Divi Ajax Filter, Range Filter, Upper limit not showing for numeric value
+* FIX - Removal of inline styles at filter item button container and input
+* FIX - Add Loading Icon to the map tooltip while content is being loaded
+* FIX - Fix PHP error with default rewrite slug for Custom Post Type
+* FIX - Search Posts Issue
+* FIX - Divi 4.19 Compatibility issue(Divi Machine Settings page buttons issue)
+* AJAX FILTER UPDATE 2.2
+        * NEW ADDITION - Search/Filter By Stock Status
+        * NEW ADDITION - Show Post Detail in same page from Archive Loop module
+        * MOD - Added "Include Option" on Filter Posts Item module
+        * MOD - Gutter row gap and column default values of 25px
+        * MOD - Added setting to add padding and margin around the filter item (works well with border radius etc)
+        * MOD - Loading icon on map markers while ajax content is loaded
+        * FIX - Border Radius was not working for filter items
+        * FIX - Reset filter issue
+        * FIX - Thumbnail and Title new tab was opening in the same new tab
+        * FIX - Map Marker Tooltip style issue
+        * FIX - Modules Style in Post Modal
+        * FIX - Issue with Show Empty filter options for Product Attributes
+        * FIX - Divi Ajax Filter, Range Filter, Upper limit not showing for numeric value
+        * FIX - Undefined function get_field_object acf when acf is not installed
+        * FIX - Removal of inline styles at filter item button container and input
+        * FIX - ACF Range: From and To values in the range are now taken from ACF min and max and not from and to settings / Range Values Type: From ACF Value (From and To)
+        * FIX - Use Decimal type automatically for Filter Value Type when acf filter type is Number/Range
+        * FIX - Radius Field Value option display condition
+        * FIX - Divi Ajax Filter Module - $ is not a function
+        * FIX - Image Popup issue after load more
+        * FIX - Select2 issue on Search Posts module
+*
+VERSION 5.2 - 04/10/22
+* MOD - Cleaned up the settings for ACF Item module to make it easier to navigate
+* MOD - Made it so that it wont click on a button below when closing the modal
+* MOD - Removed some duplicate CSS
+* MOD - View Post module compatiable with category loop
+* MOD - Added a setting for archive loop "is in category loop" - this will fetch the posts that are in that category when added to the loop layout used by the category loop module
+* MOD - Added another for ACF Item to manually add the ACF ID. Some who created the ACF Fields using PHP can add them this way.
+* FIX - jQuery error for gallery
+* FIX - Fixed it so that link will be defined by new tab setting
+* FIX - Search form submit issue with WPML
+* FIX - Modal pop up when closing it might open another underneath on IOS
+* FIX - Machine and Machine Account settings saving issue
+* FIX - Extra space with select ACF values, trailing space
+* FIX - Post Title module was not linking to the taxonomy if you specified it to.
+* FIX - admin CSS conflict
+* FIX - Issue for multiple checkbox on search posts module
+* AJAX FILTER UPDATE 2.1
+        * NEW ADDTION - Post Object filtering & searching
+        * FIX - Exclude category option issue
+        * FIX - Users's Post only for Archive Loop module
+        * FIX - loading animation with filtering, load more or pagination is not in the center rather than at the top
+        * FIX - admin CSS conflict
+        * FIX - Map Radius style issue
+        * FIX - Filter by variation stock status
+*
+VERSION 5.1.1 - 26/08/22
+* FIX - Gallery module slick reinitialize after load more
+* AJAX FILTER UPDATE 2.0.9.2
+        * MOD - Added the filter for machine thumbnail so you can specify the thumbnail image with a filter
+                - et_pb_portfolio_image_height
+                - et_pb_portfolio_image_width
+        * FIX - Adding license keys to multisite did not work
+        * FIX - Search Button issue
+        * FIX - Duplicated posts issue when load more
+        * FIX - Added repeater & group fields in acf fields option
+*
+VERSION 5.1.0 - 18/08/22
+* MEW ADDITION - Category Loop Module: Loop Layout Feature.
+        - To show:
+                - Title: Post Title - "Get Title From" choose "Taxonomy Title"
+                - Description: Post Content - "Content Type" choose "Taxonomy Description"
+                - ACF data: ACF Item - "ACF Field From" choose "Current Taxonomy" and then define taxonomy in "Taxonomy Slug" 
+* NEW ADDITION - Show the above on the taxonomy pages too and not just in the loop layout
+* NEW ADDITION - ACF Item - works with taxonomy ACF field type now 
+* NEW ADDITION - Orgnizing ACF fields options
+* NEW ADDITION - Add filter "divi_machine_basic_acf_types", "divi_machine_choice_acf_types" for acf field types in ACFItem module
+* FIX - Fix PHP warning
+* FIX - Fix filtering issue when ACF field name ends with _category
+* FIX - ACF Item, Alt text not working from module. It will now look at this and override the alt text from media library
+* FIX - Fix console error with style-epanel.css
+* FIX - Fix Setting's select box default value and save value issue
+* FIX - Hiding ACF settings was not working when modal layout loads
+* FIX - Fix Orderby issue with Numeric ACF field
+* FIX - Settings page confliction issue
+* FIX - License key deactivate issue
+* FIX - Filter issue for checkbox range
+* FIX - Table font size was set to 18px in our CSS, removed so it is what the body font size is or define in the module (repeater)
+* FIX - License issue with site blocking
+* AJAX FILTER UPDATE 2.0.9.1
+        * NEW ADDITION - Map Radius Search with Divi Machine
+        * MOD - Notify Ray ID when site is blocked by diviengine.com for active & deactive license code
+        * FIX - Fix filter issue
+        * FIX - Fix conditional category issue
+        * FIX - Fix filter button alignment issue when side by side setting is enabled
+        * FIX - Can't change parent category for conditional categories after filtering
+        * FIX - Filtering issue on mobile
+        * FIX - Translation issue with Divi Machine or Divi BodyCommerce
+        * FIX - Filter Count issue when meta key has '-'
+        * FIX - PHP notice related with woocommerce
+        * FIX - Fix masonry issue after load more
+        * FIX - label for input text accessibility
+        * FIX - Fix Price filter when load more
+        * FIX - Fix Sales Only issue on filtering/pagination
+        * FIX - Filter issue for checkbox acf field range filter
+        * FIX - License code deactivate issue
+*
+VERSION 5.0.8 - 27/06/22
+* FIX - Settings page when Machine Account is activated
+* FIX - When creating a custom post, the "add new" button label was not being generated.
+* FIX - Fix search issue related with Search Setting
+* FIX - Fix undefined function issue for getting Machine Setting on Ajax Filter module
+* FIX - Fix filtering when there is special character in filter parameter
+* FIX - Fix filtering issue for nulled filter parameter
+* FIX - Fix saving taxonomy fields for new post type
+* FIX - Enqueue divi style & js files for new settings page on it only
+* AJAX FILTER UPDATE 2.0.8
+        * MOD - Added setting to sort the posts in the archive loop by linked post order
+        * FIX - Style issue for bodycommerce modules when loading more
+        * FIX - Select/Check default value for "0" option
+        * FIX - Filter Count issue
+        * FIX - Fix Hide Empty options setting issue for Select Filter
+        * FIX - Fix Range Filter parameter issue
+        * FIX - Error message with Ajax Filter and Machine active together
+        * FIX - Fix filtering when there is special character in filter parameter
+        * FIX - Fix map pin issue after filtering
+*
+VERSION 5.0.7 - 09/06/22
+* MOD - Added option to make links and files buttons in the repeater table style. 
+* MOD - Added tag for acf item prefix and suffix when custom value for empty values setting is set
+* FIX/MOD - Make it so that you can use Post Object inside the Repeater
+* FIX - Issue with getting acf fields in Machine Setting
+* FIX - Make images show up in the repeater table style
+* FIX - Fix Divi Engine Menu issue
+* AJAX FILTER UPDATE 2.0.7
+        * NEW ADDITION - Product Price: Min price can be set as the lowest price in the store, category or custom
+        * MOD - Machine, post object will work inside a repeater now
+        * FIX - Filter js issue
+        * FIX - Pagination issue with offset setting
+        * FIX - Scroll to top after ajax update issue when pagination is clicked
+        * FIX - Map marker js issue
+        * FIX - OrderBy issue with Product Loop module
+        * FIX - Show Always Reset button issue
+        * FIX - Show Empty Filter option issue
+        * FIX - Filter item style issue
+        * FIX - HTML was not working in post tiles because of esc_html
+        * FIX - Fix refresh filtering when parameter value is 0
+        * FIX - Fix filter count issue when there is product price range in Filter module
+        * FIX - Hide empty filter optoins for select was not working
+*
+VERSION 5.0.6 - 26/05/22
+* FIX - Fix the issue with saving Custom Post Type
+* FIX - Fix the custom css, js are not importing
+* FIX - Fix Prettify Url issue
+* FIX - Fix Rewrite With Front issue
+* AJAX FILTER UPDATE 2.0.6
+        * FIX - Fixed Style breaking when use Machine Archive Loop module for products
+        * FIX - Fixed orderby module issue
+        * FIX - Remove Range Slider value when reset is clicked
+        * FIX - Mobile toggle was not working - button was hidden. Now it is visible so you can toggle the filter
+        * FIX - Filter Count issue for some taxonomy terms
+        * FIX - Range Custom Values - no to and from appear when this is selected
+*
+*
+VERSION 5.0.5 - 20/05/22
+* FIX - Fixed the issue Custom Post Type not working
+* FIX - Pagination/Orderby not working for some situations 
+* FIX - PHP warning 
+*
+VERSION 5.0.4.1 - 20/05/22
+* FIX - removal of eval() code which some security plugins did not like 
+*
+VERSION 5.0.4 - 19/05/22
+* NEW ADDITION - Setting to delete all our settings when you delete Divi Machine
+* FIX - Align last module was not working on carousel module 
+* FIX - Issue with custom post not being public Queryable for some websites, no need to resave the custom posts
+* FIX - Security nonce causing admin-ajax.php 403 in some cases
+*
+VERSION 5.0.3 - 19/05/22
+* FIX - Issue with some custom posts not saving so WP thinks they are not set to public. Customers had to save custom post again to fix (Divi Engine > Add/edit custom posts)
+* FIX - Fatal error on some sites 
+* FIX - Version number was not changed which caused the notice to keep updating
+*
+VERSION 5.0.2 - 18/05/22
+* FIX - Fatal error when Ajax Filter, Machine and BodyCommerce are active together or 2 of them 
+*
+VERSION 5.0.1 - 18/05/22
+* FIX - Fixing Filter issue with ACF field
+* FIX - Reset Filter issue
+* FIX - Removing sanitize_text_field as this removed whitespace and made filter not work well in some cases
+* FIX - Loadmore issue
+* FIX - Fatal Errors
+*
+VERSION 5.0 - 15/05/22
+* NEW ADDITION - Remove Titan Framework and use Divi Settings Scripts - save speed and resources. Our setting pages will now look like Divi.
+* NEW ADDITION - Added sorting by ACF Field and Data Picker to Carousel module
+        - today
+        - Today and in the future
+        - Today and next x days (define days)
+        - In the past
+        - Last 7 days (including today)  - last week
+        - Yesterday and past x days (define days)
+* NEW ADDITION - Added option to add ACF text as the view post module, if nothing it will default to the custom text
+* NEW ADDITION - Added option to get ACF data from post object (linked to current post) - choose post object in ACF Field From field
+* Change label in ACF Item from "ACF Field Type" to be "ACF Field From"
+* MOD - Archive Loop module - map 
+        - Setting to Ajax Load the map tooltip
+        - Setting to add your own shortcode for the tooltip (this way you can add custom code)
+* MOD - Added setting to put values on seperate line for Meta Module
+* MOD - If no map layout is selected - we will just show the title (quicker loading time than loading loads of data in a loop layout)
+* MOD - Remamed "Filter ACF Field" in the archive and carousel modules to not get confused with ACF Ajax Filter - it is now called "Include ACF Field"
+* FIX - Repeater tabs content was not showing for some
+* AJAX FILTER UPDATE 2.0
+        * NEW ADDITION - Added escaping and sanitizing functions to increase security 
+        * NEW ADDITION - Full Visual Builder Compatibility 
+        * NEW ADDITION - Specify the custom post to be displayed in the Divi Builder Page Settings or Meta Field in Divi Library
+                - Visual Builder:
+                        - Page Settings > Divi Engine > Visual Builder > Example Post Type
+                - When no page settings are available (like in the Divi Library)
+                        - Side bar > Divi Engine > Visual Builder > Example Post Type
+        * NEW ADDITION - Added style to side slide the filter (now have normal, toggle and side slide) 
+                - Add a button or similar. Add a CSS ID to the button. Add this ID to the filter post 
+                - When you click this button, the filter will slide in
+        * MOD - ADD FiboSearch Compatibility
+        * MOD - Moved CSS and JS out to not be minified with the rest, this way it will only be loaded when you need it 
+        * MOD - Speed improvement of the Loop Layouts 
+        * MOD - Speed improvement of the Post Count (one massive site we tested, went from 18s down to 1.5s)
+        * MOD - Merged "indent and prefix for sub categories and sub taxonomies"
+        * MOD - Added styling options for reset button to be different from search button
+        * MOD - Filter Module
+                - Moved design settings into design tab 
+                - Created Subtoggles text styles, active/inactive styles 
+                - Hide settings when they are not needed to be more clear and less confusing
+        * MOD - added setting to change number of pins showing on map if showing ALL pins
+        * FIX - Map Cluster on loadmore 
+        * FIX - Category disply mode issue for post type
+        * FIX - Map address & radius in one row
+        * FIX - Fix onload term issue
+        * FIX - Category indent issue
+        * FIX - Title styling not working for some cases
+        * FIX - background setting issue for header of filter item
+        * FIX - ACF field with reserved name price was not sorting properly at the orderby module
+        * FIX - Prevent filtering & getting filter counts when nothing is changed in filter module
+        * FIX - Prevent collapsing when there is checked child option on load
+*
+VERSION 4.1.6.1 - 07/03/22
+* FIX - JS error on frontend
+*
+VERSION 4.1.6 - 03/03/22
+* MOD/NEW ADDITION - ACF Item Module - added the setting "ACF Field Type"
+        - Migrated "User Field Type" under this and if they select "User Field", this will show 
+        - New setting under "ACF Field Type" - Category, Tag or Taxonomy of current CPT. This will help you show a field from a category for example.
+                1) Add a taxonomy field to the post you are wanting to show the field on.
+                2) In the post setting, define the taxonomy (for example a category) that you want to show
+                3) Choose the taxonomy field you have created in step 1 - "Field Taxonmy ACF Name"
+                4) Make sure to choose the ACF you want to show (what has been assigned to category) in "ACF Name"
+* MOD - New setting "Public Queryable" - to disable single and archive layouts
+* MOD - Disable our translation files if you enable this in Divi > Theme Options (Disable Translations)
+* MOD - Added options to define a custom slug for module overrides (if CPT is made outside of Divi Machine)
+* FIX - Button icon not working on the search post module
+* FIX - fatal error showing in some cases for post object and single ACF item
+* AJAX FILTER UPDATE 1.9.3.2
+        * MOD - Added setting to choose "indent" instead of "prefix" for the child categories in the filter. Define the space you want it to indent by
+        * MOD - added main-loop class for machine loop if selected
+        * FIX - Removed variation swatches JS code from BC so that it does not effect the order bump
+        * FIX - Click on parent when Collapsible was not working, it would not check the parent checkbox
+        * FIX - Fixed issue with Divi Machine gallery not loading after ajax load
+        * FIX - prefix indent was causing space - removed the space
+*
+VERSION 4.1.5 -25/01/22
+* FIX - ACF Item not showing values in some situations 
+* FIX - php notice in MachineLoop
+* FIX - Slick slider issue after load more
+* FIX - Order By multiple submission issue
+* FIX - Link to external URL was not working after load more or filter
+*
+VERSION 4.1.4.2 - 21/01/22
+* FIX - JS error after ajax
+*
+VERSION 4.1.4.1 - 18/01/22
+* FIX - showing debug code in view post module 
+*
+VERSION 4.1.4 - 17/01/22
+* NEW ADDITION - Filter by ACF Name/Value on CategoryLoop Module
+* MOD - Filter by ACF Name/Value on CategoryLoop Module
+* FIX - Countdown timer after ajax return
+* FIX - PHP errors showing on Machine archive/category pages
+*
+VERSION 4.1.3 - 13/01/22
+* NEW ADDITION - Added option to add subject, body and more for email link
+        - Subject: page URL, page Title or custom text 
+        - Body: Custom text 
+        - Body After: Add page title or url after body text
+        - Custom paramaters: add custom text after such as CC or BCC
+* NEW ADDITION - Added settings for Email field type
+        - email subject (page title or custom)
+        - email body
+        - extra parameters if you want to add manually
+        - Set email to be "blank@domain.com" to have no "to" address - if they want to email something to themselves for example
+* MOD - Remove . before each module name
+* MOD - Gallery module - get field/images from author if used
+* MOD - Added setting to enable/disable cluster maps on the archive loop module
+* MOD - Changed setting in ACF from "Is this a author field?" to be "Is this a user field?" and then a new setting to select if it is the field from the author of the post or the user logged in
+* MOD - Taxonomy Linked related posts
+* MOD/FIX - "Image ACF Link Field" - if blank, check for repeater subfield so it works with repeater Custom Loop Layout too
+* FIX - Search SQL issue when single quote is in search string
+* FIX - Custom Icon issue of load more button on machine loop
+* FIX - Gallery Issue when filtering
+* FIX - Prev/Next Icon for post modal
+* FIX - PHP 8, visaul builder was not loading when Machine was active
+* FIX - Gallery Pro not showing images
+* FIX - Taxonomy filter issue
+* FIX - Checkbox value as url
+* AJAX FILTER UPDATE 1.9.3
+        * MOD - Remove . before each module name
+        * MOD - Added option to add custom values for the range slider. So you can have the steps as 0,100,1000,10000 for example.
+        * MOD/FIX - Customised settings so that you can change the border radius and box shadow on the select, range and radio boxes
+        * MOD - Add Include Custom Taxonomy Terms in ProductLoop module
+        * MOD - Linked Posts by ACF taxonomy field
+        * FIX - BC - when scroll to orderby on mobile - was not working, it will default to the archive loop on mobile to scroll to if no orderby
+        * FIX - ICON issue on Machine Archive Loop module
+        * FIX - Filter issue by search keyword when reload page
+*
+VERSION 4.1.2.1 -25/11/21
+* FIX - Gallery Icon issue
+* FIX - PHP error
+*
+VERSION 4.1.2 -24/11/21
+* MOD - Put all modules into folder "Divi Machine"
+* MOD - Repeater Module - table option, added select and checkbox compatibility
+* MOD - Added setting "Is this an author field?" - we try work out if its an author field but if it is not working - enable this
+* MOD - Added setting to only show "update_content" modal type when the person click on the post rather than on page load
+* FIX - Repeater module issue
+* FIX - ACF show/hide row and section were not working well when jQuery was deferred
+* FIX - ACF Item module for checkbox in Group field.
+* FIX - ACF Item "hide" option issue when value is empty
+* FIX - ACF Item "Custom Text" showing separator when "Show Label" is disabled
+* AJAX FILTER UPDATE 1.9.1 & 1.9.2
+        * MOD - Put all modules into folder "Divi Ajax Filter"
+        * FIX - Improved fixing Icon issue with new Divi Update from Divi 4.13.0
+        * FIX - Multiple product tag filter issue(PHP error)
+        * FIX - Archive Loop issue on Search Page
+        * FIX - Machine Loop issue for ACF filter
+        * FIX - Remove BodyCommerce scripts on Divi Machine
+        * FIX - Variation Swatch normal style issue(Opacity)
+        * FIX - Multiple post type selection issue after new CPT is added on Machine Loop
+        * FIX - Price range filter when tax option is enabled
+        * FIX - Styling issue after filtering on normal page
+*
+VERSION 4.1.1 - 12/11/21
+* FIX - Improved fixing Icon issue with new Divi Update
+*
+VERSION 4.1 - 10/11/21
+* NEW ADDITION - View Post modal, ability to display as "content update" instead of pop up modal. This will display the loop layout above or below the archive loop/ carousel. When you click, it will update this content to be the post you chose.
+* NEW ADDITION - Google map clustering (https://developers.google.com/maps/documentation/javascript/marker-clustering)
+* MOD - ACF Item - added setting to define if in repeater loop layout as some cases our autodetection code was not working
+* FIX - Icon issue for Divi 4.13.0
+* FIX - ACF icon italic style issue
+* AJAX FILTER UPDATE 1.9
+        * MOD - Add include category feature for linked post Archive Loop
+        * MOD - Add ACF filter for Related Post Archive Loop
+        * MOD - Add Archive Loop filter by non empty ACF value (Get posts only that specific acf value is set)
+        * MOD - Filter Items order by menu_order
+        * FIX - Fix button product loop overwriting atc module
+        * FIX - ICON issue for Divi 4.13.0
+        * FIX - Multiple post category filter issue
+        * FIX - Remove Filter Param issue on combination category filter
+        * FIX - Loadmore issue
+        * FIX - Include tag and categories were applied for default woocommerce layout
+        * FIX - Filter Param & Filter issue when filter by button
+        * FIX - ACF Date Picker order by today to +custom days
+        * FIX - Parent Category expand icon nonclickable issue
+        * FIX - Search/Filter field padding/margin issue
+*
+VERSION 4.0.1 - 28/10/21
+* MOD - Gallery module - added setting to choose same height on the thumbnails too "Same height thumbnails too?"
+        Gallery module - added setting to define if in a repeater loop layout, so it will find the gallery items - before it was not working when inside a repeater loop layout - Is this inside a repeater loop layout?
+* MOD - ACF ITem - Conditional logic, adding CSS class - added settng "Is this in a loop layout?" to only add css class to the item inside the grid it belongs to
+* FIX - Category Loop - image left causing issue with <a> link
+* AJAX FILTER UPDATE - 1.8.1
+        * FIX - Styling issue after ajax call
+        * FIX - PHP Errors on modules
+        * FIX - Visual Builder loop preview issue
+        * FIX - Exclude options on Filter item module
+*
+VERSION 4.0 - 21/10/21
+* NEW ADDITION: Added compatibilty for ACF Options (ACF Pro) - enable the option "ACF is on an Options Page" in the ACF Item module, under the specific settings tab
+* NEW ADDITION: Gallery Module
+        - Define number of images you want to show
+        - Grid Settings:
+                - Added option to change gutter size
+                - Added option to customise the grid using custom code - see this doc here:
+* NEW ADDITION: ACF Item module - Added some conditional logic settings
+        - added option to hide another module/row/section based on the ACF true/false field.
+        - added option to add a CSS class to another element based on a select or checkbox field
+        - If ACF value is empty you can:
+                - Hide Module (default)
+                - Hide Parent Row & this module
+                - Hide Parent Section & this module
+                - Hide Another Element & this module (define CSS selector)
+                or
+                - Show custom text that you define
+* NEW ADDITION: - Category Loop: Added setting to define the HTML tag of the title
+                       Added setting to customise the description text appearance
+                       Added setting to customise the box-shadow and borders of the categories
+                       Added setting to show ALL the terms regardless of if on a single page
+* MOD - ACF Item: Added option to let a link/url field to be another ACF Field
+* MOD - Archive Loop: Changed include/exclude categories/tags to be SLUG comma-seperated. If using IDs before, please change to slug
+* MOD - Orderby Wishlist ( for Machine Account)
+* FIX - PHP Notices on render function of all modules
+* FIX - code optimizing for multiple dmach_pretty_permalinks calls
+* FIX - ACF on category page would not work
+* FIX - ACF Item search option Titanframework php error
+* FIX - Blank Carousel Item issue
+* AJAX FILTER UPDATE - 1.8
+        * NEW ADDITION - Filtering options orderby (Category/Tag/Taxonomy/ACF) - ability to change the order of the filter items in the select drop down for example.
+        * FIX - Checkbox Type ACF field for "Numeric" filter value type Filtering issue
+        * FIX - Order by Wishlist posts per page issue
+        * FIX - Styling issue after ajax
+        * FIX - Include/Exclude category on Product Loop module for ajax filtering/pagination
+        * FIX - Relationshiop ACF field support for Linked Post on Machine Archive loop
+        * FIX - Include tag issue on Archive Loop
+        * FIX - Filter Items "Show More/Show Less" issue
+        * FIX - Multiple Level Conditional category filter option issue
+        * FIX - Search Filter Item js error
+*
+* AJAX FILTERS UPDATE - 1.7
+        * NEW ADDITION - Added multiple post type selection - Divi Machine only for now
+        * NEW ADDITION - Added Product Variation Type in ProductLoop module - You can now show the product variations as seperate products on the product loop
+        * NEW ADDITION - Added "Exclude Tags" in machine loop
+        * NEW ADDITION - ACF field Sort type added for Machine Loop
+        * MOD - Added de_ajaxfilter_before_shop_loop_item/de_ajaxfilter_after_shop_loop_item hooks on Product Loop
+        * FIX - Order by ACF field issue when filtering
+        * FIX - Filtering issue with tax_query or meta query is empty in original query
+        * FIX - Map pins for ajax loadmore
+        * FIX - Style Confliction with other modules for ajax call
+        * FIX - Filter Count issue
+        * FIX - Filter issue for conditional category issue when child is empty
+        * FIX - Filter issue when press enter key to search
+        * FIX - Load more issue when inside loop module is in layout
+*
+VERSION 3.5.5.2.1 - 10/09/21
+* FIX - Missing code for new ACF Field sort (nothing major)
+*
+VERSION 3.5.5.2 - 10/09/21
+* MOD - Archive Loop - added option to filter posts by ACF Field (not just datepicker)
+* FIX - ACF Item - Select option not rendering value in some cases
+* FIX - ACF Item Module issue for radio type
+*
+VERSION 3.5.5.1 - 07/09/21
+* FIX - ACF Item Module issue
+*
+VERSION 3.5.5 - 06/09/21
+* NEW ADDITION - You can now display user meta created with ACF. Add ACF Item module to display this meta
+* MOD/NEW ADDITION - Added ACF date picker settings to show posts:
+        - today
+        - Today and in the future
+        - Today and next x days (define days)
+        - In the past
+        - Last 7 days (including today)  - last week
+        - Yesterday and past x days (define days)
+* MOD - Link whole grid, now you can link to a ACF field - external site
+* FIX - Multiple row align last module was not working well
+* AJAX FILTERS UPDATE - 1.6.4
+        * FIX - Pagination string translation issue
+        * FIX - Product tag orderby issue on filter module
+        * FIX - Remove Filter issue
+        * FIX - Thumbnail module php issue
+        * FIX - Add Dynamic CSS compatibility code
+        * FIX - Ajax add to cart issue after loadmore/infinite scroll
+        * FIX - Exclude category issue
+        * FIX - Product Category filter issue
+        * FIX - Related posts by category issue
+        * FIX - Ajax Add to cart issue after loadmore/infinite
+        * FIX - Bullet issue when use Machine Loop for Product list
+*
+VERSION 3.5.4 - 20/08/21
+* MOD - Added Search Settings tab to Machine Settings and availability to exclude options when search by string
+* AJAX FILTERS UPDATE
+        * MOD - Added de_ajaxfilter_before_shop_loop_item/de_ajaxfilter_after_shop_loop_item hooks in ajax call
+        * FIX - Filter issue on category page
+        * FIX - Product duplication issue when loadmore/infinite
+        * FIX - Product Loop html markup issue
+        * FIX - Search by String url issue
+        * FIX - Orderby issue after loadmore
+*
+VERSION 3.5.3 - 13/08/21
+* MOD - made post meta for categories, tags and taxonomies sort by ID, ASC
+* MOD - Added settings to customise padding for select filter items
+* MOD - Padding and margin setting in orderby module will affect the select field
+* FIX - Showing the correct taxonomies for the post in a loop layout
+* AJAX FILTERS UPDATE
+        * MOD - Added setting to change the text of "yes" and "no" for the true/false field
+        * FIX - Filter module has opened after ajax in mobile when auto close option is enabled
+        * FIX - Select Filter option issue(current value is not selected) when page loaded with its filter param
+        * FIX - PHP error for search when woocommerce is not installed
+        * FIX - Enabled "Scroll To Top After Ajax Update" option for Load More/Pagination/Infinite mode of Archive Loop module
+        * FIX - Price filter issue
+        * FIX - PHP error on Filter option module for getting acf fields
+        * FIX - PHP error on getting icon css on Filter Option Module
+        * FIX - PHP error on Thumbnail module
+        * FIX - filtering issue for category on category page
+        * FIX - Decimal filtering issue
+        * FIX - Prevent form submitting when press enter on search field for filter module
+        * FIX - Add relevance sort option in MachineLoop module
+        * FIX - Js minify issue for remove filter parameter
+        * FIX - Add relevance sort option in Product Loop module
+        * FIX - provide woocommerce_before_shop_loop_item/woocommerce_after_shop_loop_item hooks in custom loop layout for product module
+        * FIX - Related Posts issue
+        * FIX - Remove Filter Param issue
+*
+VERSION 3.5.2 - 26/07/21
+* MOD - placeholder image added for thumbnail
+* MOD - category loop active item styling
+* FIX - ACF Item: Made it so that the select will show the label and not the value. So if you have it as all : This is the text - it will show as "This is the text" and not "all"
+* FIX - ACF Item icon display issue
+* FIX - "No" option for "Has Archive" in Custom Post Type
+* FIX - ACF Gallery was not working on a page
+* AJAX FILTERS UPDATE
+        * MOD - Add "Exclude Categories" option to ArchiveLoop module
+        * MOD - ADD Filter option for "True or False" type ACF field
+        * MOD - Add "Linked/Related" posts by post object ACF field.
+        * FIX - PHP error for class definition duplication
+        * FIX - Wireframe blank issue
+        * FIX - Post Modal css conflict issue
+        * FIX - Fix PHP Notice for shortcode slug of Title, Thumbnail modules
+*
+VERSION 3.5.1 - 13/07/21
+* MOD - Post Carousel: Ability to hide/show arrows and dots
+* MOD - Post Carousel: Added Center Mode
+* MOD - Make custom tax show up in the admin column
+* FIX - ACF Item when a select or checkbox field type - not showing prefix and suffix
+* FIX - Related by categories was not working
+* AJAX FILTERS UPDATE
+        * MOD - Remove filter for current taxonomy on archive page
+        * FIX - Sort by issue by meta value
+        * FIX - Sort by issue for combination of default sort options
+*
+VERSION 3.5.0.2 - 09/07/21
+* FIX - Fixed php error with ajax filter and BC
+*
+VERSION 3.5.0.1 - 09/07/21
+* FIX - Fixed issue with order by "menu_order title"
+* FIX - Fixed price filter issue on Standalone
+* FIX - Fixed js issue for range filter
+*
+VERSION 3.5 - 07/07/21
+* MOD - ACF Item: Ability to show ONLY for logged in users - new settings called "Visibility"
+* MOD - Added a loading modal when the ajax is loading the posts in the modal (view post module) - you can define the color of the loading animation
+* MOD - Hide gallery module if no images are added
+* FIX - Post Meta not getting CSS classes properly for post categories
+* FIX - Create post admin position
+* FIX - Order of post object in ACF Item to match the order in the settings
+* FIX - Display type = post object
+* FIX - PHP Warning on ACFItem.php
+* FIX - Url issue when prettify URL is selected
+* FIX - Improve speed of Divi Machine
+* AJAX FILTERS UPDATE
+        * NEW ADDITION - Load More and Infinite Scroll
+        * NEW ADDITION - Select2 option for the select filter items
+        * NEW ADDITION - Added availability to hide empty option for select filter
+        * ADD - Added settings to select Load More type (Load More, Pagination, Infinite Scroll)
+        * MOD - Added settings to change toggle color for the sub-category icon - default color #666
+        * MOD - Added settings to select max product price for range filter
+        * FIX - Moved radio count over to the left when you have the sub-category icon toggle so do not overlap
+        * FIX - Radio text not style
+        * FIX - masonry not working well after ajax load if no images
+        * FIX - Javascript issue for "All" option select of Checkbox style filter
+        * FIX - Multiple "And" operation issue
+        * FIX - Product Attribute Checkbox filter option issue
+        * FIX - masonry layout not working for posts for ajax filter
+        * FIX - Hide Empty Option issue for Select2(Disable options for empty options on Select2)
+        * FIX - Hide Whole Filter option when there is no available option
+*
+VERSION 3.4.4 - 31/05/21
+* MOD - Related post object, if none selected - it will hide the section
+* FIX - Related for post object was not working well
+* AJAX FILTERS UPDATE
+	* MOD - New setting to define a delay in searching text while typing (much how you search for plugins in Wordpress admin)
+        * MOD - Do not search a text field if empty
+        * FIX - Reset Filter issue
+        * FIX - Filter by Category issue
+        * FIX - Filter Count for taxononmy issue
+*
+VERSION 3.4.3 - 25/05/21
+* MOD - Repeater tabs: added prepend, append and default values to the simple field
+* MOD - Inifinate loop on carousel module
+* MOD - updated labels to be divi-machine for translations
+* FIX - Session problem
+* AJAX FILTERS UPDATE
+        * FIX - Archive Loop inside archive loop issue
+        * FIX - Filter by ratings issue
+        * FIX - orderby random issue
+        * FIX - Radio options hiding on load which should not
+*
+VERSION 3.4.2 - 20/05/21
+* MOD - Added option to display image based on ACF text field
+* FIX - code issue
+*
+VERSION 3.4.1 - 20/05/21
+* FIX - ACF Item bug
+*
+VERSION 3.4 - 19/05/21
+* MOD - Added option to change the decimal character for ACF Item - range field
+* FIX - PostContent Module limit word count issue for non-latin characters
+* FIX - Gallery grid
+* AJAX FILTERS UPDATE
+        * ADD - Add Filter Condition for Checkbox style filter option
+        * ADD - Auto Detect post type feature for Loop module
+        * FIX - Display issue of Out of Stock products
+        * FIX - Sort By issue
+        * FIX - Remove Filter Param issue
+        * FIX - Show More / Less not working
+*
+VERSION 3.3.1 - 23/04/21
+* FIX - Map init fix after filtering
+* FIX - Several PHP error
+* FIX - Machine category loop module issue
+* FIX - ACF Item module image size php error
+* AJAX FILTERS UPDATE
+        * MOD - Speedup load assets on specific modules
+        * MOD - Add translate availability of Filter Option names
+        * MOD - Trigger "divi_filter_completed" jquery event after filtering & load more is completed
+        * MOD - Added script for module links after ajax
+        * FIX - Filter Conditional Logic issue
+        * FIX - Machine multiple include taxonomies
+        * FIX - Load more offset issue
+        * FIX - Machine Loop orderby acf datepicker issue
+        * FIX - Video Size issue after filtering
+        * FIX - Add filtering callback
+        * FIX - Filter Param remove issue
+        * FIX - Add availability to add more level of contidional logic
+        * FIX - Hide Out of stock products issue
+        * FIX - Machine Loop keep query params when reloading after filtering issue
+        * FIX - Divi Machine & BodyCommerce & Ajax Filter module compatibility issue
+        * FIX - Link to whole grid for form elements like add quantity & ajax add to cart button issue
+        * FIX - resizeAllGridItems not defined issue
+        * FIX - Video acf item size issue
+        * FIX - Filter count issue
+        * FIX - Filter Param issue when select filter option
+        * FIX - Include cat issue on non main loop when filter param query is set
+        * FIX - Masonry item image issue after ajax
+        * FIX - Go to the section issue when click pagination for normal pagination style
+        * FIX - Get count issue for Taxonomy filter option of the POST
+*
+VERSION 3.3.0.1 - 23/03/21
+* FIX - Icon on left
+* FIX - border radius of ACF value
+*
+VERSION 3.3 - 18/03/21
+* MOD - ACF Item: When used in a repeater, you might want to have dynamic button text based on another repeater text field. We have added this setting. So you can add a file and text field inside a repeater and we will display the button text as the text repeater field with the file as the download
+* MOD - Map override works with fullwdith map module
+* FIX - Search issue
+* FIX - Post object list - label not working
+* FIX - Related posts based on post object, was not working
+* FIX - PHP notice on PostMetaItem module
+* FIX - Ajax issue for getting sub category handler
+* FIX - Limit text for PostContent module
+* FIX - align icon left/right when there was a link inside, not working
+* AJAX FILTERS UPDATE
+        * MOD - Conditional logic work with search module from Divi Machine
+        * FIX - Columnn number on tablet and mobile
+        * FIX - fixed scroll to when load more
+        * FIX - Columns issue after ajax call
+        * FIX - Filter issue with decimal value
+        * FIX - Meta query duplication issue
+        * FIX - Random orderby issue
+        * FIX - Filter count issue by pagination
+        * FIX - PHP issues on ArchiveLoop module
+        * FIX - Product loop style issue on normal page
+        * FIX - "Show result count" option issue
+        * FIX - Filter issue with unvalid param url(When search by button)
+        * FIX - Offset issue with all posts(Posts Per page : -1)
+        * FIX - "Only show available options" issue for filter options when pagination
+        * FIX - Remove filter param issue
+        * FIX - Reset filter issue (when all option is disabled for radio type filter)
+        * FIX - Modal popup issue after filtering
+        * FIX - Filter Count issue when there are several same category filter option
+        * FIX - Collapsible Categories not working
+        * FIX - Column issue when filtering after no result
+        * FIX - Made pagination "scroll to" setting to work only for pagination
+        * FIX - Set default category when reset for category page
+        * FIX - Archive Loop module default acf name & value for checkbox type field issue
+        * FIX - Conditional logic for acf select box
+        * FIX - Radio long label not lining up
+*
+VERSION 3.2.1.2 - 08/03/21
+* FIX - Titan framework issue
+*
+VERSION 3.2 - 05/03/21
+* AJAX FILTERS UPDATE
+    * NEW ADDTION - Conditional Logic for filter options
+    * NEW ADDITION - Enhanced category options
+        - Show Only Parent Categories
+        - Show Only Sub Categories of Selected Category (you then select a category)
+        - Show Sub Categories of Current Category (Category page only)
+        - Show All Categories and Sub categories
+    * NEW ADDITION - Setting to make each filter item toggle on mobile only
+    * NEW ADDITION - Setting to limit the height of the radio filter, you can click on text to show more (expand) and show less (collapse)
+    * MOD - Changed the filter items settings to be more clear and easier to use - just layout
+    * MOD - Filter column size on desktop, tablet and mobile when using the fullwidth column style.
+    * MOD - Post Title: moved margin to module and padding to title
+    * MOD - Added setting to show related posts using post categories when selecting our custom post (usually custom tax category)
+    * MOD - Added sort by price and stock status for product loop module
+    * MOD - Added setting to set the value type(string, number, decimal)
+    * MOD - Added option to auto close the filter on mobile when making a selection
+    * FIX - Fixed thumbnail margins not working
+    * FIX - Range slider for product attribute that contains decimal value
+    * FIX - php notice
+    * FIX - Filter label not hiding in some cases
+    * FIX - fixed column count when filtering
+    * FIX - minor CSS bugs
+    * FIX - CSS style issue for ajax calls
+    * FIX - Module duplication issue
+    * FIX - Pagination issue when post offset is 0
+* ADD - option for exclude filter options
+* MOD - Archive Loop: Added option to customise the post offset (Does not work with pagination or filters yet)
+* MOD - Archive Loop: Added option to exclude categories or tags from the related posts
+* FIX - Added option for value type - string/Numeric/Numeric with Decimal
+* FIX - Double loading rangeslider js
+* FIX - Fixed same height and align last module
+* FIX - Search Form, columns
+* FIX - No result layout style issue
+* FIX - Show empty option issue
+* FIX - Fix style issue for ajax calls
+* FIX - Archive Loop module duplication issue
+* FIX - Pagination issue for post offset default setting
+* FIX - Gallery icon causing CSS issue when not one is specified (gallery module)
+*
+VERSION 3.1 - 16/02/21
+* MOD - Added class name to radio (single) ACF item
+* MOD - Added ability to add \ in date for meta module. Use * instead - see: https://help.diviengine.com/article/187-customising-post-date-return
+* MOD - Category Loop module. Added setting to disable title.
+* MOD - Category Loop Module. Added code to make it only display the categories assigned to the post when using on the single page or enable the setting "Is in loop layout?" (so you can show a cat image if you want)
+* MOD - setting to show reset button always
+* MOD - Added setting to define the size of your self hosted video
+* FIX - Exclude cats in cat loop module
+* FIX - Load More & Filtering issue
+* FIX - Filter by Numeric issue
+* FIX - ACFItem Module Custom Loop issue
+* FIX - Image Return type mismatch issue in AcfItem module
+* FIX - Filter issue when using 'category' as taxonomy of custom post type or in ACF field
+* FIX - Filter param tag undefined issue
+* FIX - Reset button show hide issue
+* FIX - Masonry not updating after ajax filter
+* FIX - JS error with range slider if no max value is set
+* FIX - Url changing issue by filter parameter in machine i.e. by year
+*
+FIX - Filtering issue when product loop module by Machine
+*
+VERSION 3.0.2 - 10/02/21
+* FIX - Equal height issue
+* FIX - Ajax loadmore issue
+* FIX - Pagination issue
+* FIX - Search column structure when used in toggle
+*
+VERSION 3.0.1.1 - 02/02/21
+* FIX - Thumnail issue
+*
+VERSION 3.0.1 - 01/02/21
+* FIX - Grid css on load more
+* FIX - Bug with BodyCommerce
+* FIX - Masonry JS error
+*
+VERSION 3.0 - 26/01/21
+* COMPATIBILITY - Fixed conflict with BodyCommerce and Ajax Filters - now all are integrated together
+* NEW ADDITION - ArchiveLoop : Mulitple Map Pins integration availability
+* NEW ADDITION - View Post Btn : Post Modal & naviate posts there (like our product page) - center and side options ✓
+* NEW ADDITION - Added a New ACF type - Phone Number ✓
+* NEW ADDITION - Added ability to use ACF to populate the countdown timer module ✓
+* MOD - Added setting to exclude categories from Archive Loop module ✓
+* MOD - Gallery module - added settings to change the number of slides and how many scroll on tablet and mobile !!!! Please check to make sure it works how you want !!!! ✓
+* MOD - Added linked post list style (so you can show linked posts as a list and not use the custom loop layout) ✓
+* MOD - Added setting to make reset and search buttons side by side ✓
+* MOD - Added setting to show a button that when they click will toggle the filter on mobile in the filter module ✓
+* MOD - Added setting to scroll down to a section on ajax update - choose posts, orderby or filter. Fine tune the position ✓
+* MOD - New setting to only show category/tags/attributes/custom tax that are assigned to the posts (Only for radio/checkbox) ✓
+* MOD - Added option to hide the title on a page where Divi Machine has created a custom post
+* MOD - Alt and title tags on gallery and title on thumbnail ✓
+* MOD - Added class to ACF item prepend and append ✓
+* MOD - Added setting to choose if you want to link to archive page for search module ✓
+* MOD - Added setting to only show child categories in the category loop module ✓
+* MOD - Added Projects to map post type select ✓
+* MOD - Added setting to open search in new tab ✓
+* MOD - View Post Module - added ability to link to an external site and also open in a new tab ✓
+* MOD - Added setting for custom word count in Post Content module ✓
+* MOD - Added setting to link title and thumbnail to a new tab ✓
+* MOD - Added setting when creating the custom post - to enable Gutenberg ✓
+* MOD - Hide reset if not filters are selected ✓
+* FIX - Filter counter issue after ajax-filter integrated
+* FIX - Same height grid cards with the carousel slider
+* FIX - Fixed Linked Post not showing when custom field is multiple
+* FIX - Fixed ACF date picker order issue.
+* FIX - Fixed custom taxonomy query issue.
+* FIX - Fix compatibiliaty issue with event plugin.
+* FIX - Fix repeater field issue
+* FIX - Wordpress security issue for session
+* FIX - reset radio all
+* FIX - Post Object ACF Item issue within Custom Loop Layout
+* FIX - Button modal layout for gallery and map
+* FIX - Filter Type setting not showing when selecting categories
+* FIX - Custom tax not showing in filter select
+* FIX - Custom tax archive not showing
+* FIX - Fix taxonomy register issue
+* FIX - Custom category/tags - multiple values not working in carousel and archive loop
+* FIX - Adaptive gallery
+* FIX - Conflict between BC and machine import/export
+* FIX - bug when using radio in search module, it would not search
+* FIX - image top in ACF item
+* FIX - Issue with default post category
+* FIX - JS error when resetting
+* FIX - removed titan generated css
+* FIX - order products in past
+* FIX - fixed no results layout
+* FIX - code for no results to target all buttons
+* FIX - Gallery module not picking up gallery images in some cases
+* FIX - Gallery grid bug
+* FIX - Sort by acf date picker issue
+* FIX - Link whole grid on filter
+* FIX - filtering issue for multiple loop module
+* FIX - Prettify Url issue
+* FIX - Remove Ajax license notice
+* FIX - Dynamic link issue
+*
+VERSION 2.1.2 - 15/10/2020
+* NEW ADDTION - ACF Gallery: Masonry Grid Gallery
+* MOD/FIX - Post Meta appearance settings were not there/working
+* MOD - Added 'all' option for multi select filter type
+* MOD - ACF Item: added option to change the HTML tag of the ACF value
+* MOD - ACF Gallery: Option to disable lightbox
+* MOD - ACF Item: Added option to open link/url in a new tab
+* FIX - Button Icon not showing
+* FIX - Fixed filter issue for "Select" type field when "Multiple" is selected.
+* FIX - Radio checkbox not rendering checked value
+* FIX - Same height cards was not working when linking whole layout
+* FIX - Fixed filter issue for category page
+* FIX - Fixed map and pin issue for module override
+* FIX - Fixed issue for filter value not selected on page loaded
+* FIX - Load more text not changing
+* FIX - CSS not loading when using the theme builder only
+* FIX - Gallery in loop not reinitiating
+* FIX - Filter field font size
+* FIX - Fixed issue for Linked Post Object
+* FIX - Fixed slick slider reinitializing for ajax filtering within Archive Loop
+* FIX - Styling of the archive loop in the visual builder
+* FIX - Fixed some cases - when reloading it would not mark the chosen value as the select filter value
+* FIX - Content module not showing text align for paragraph text
+* FIX - Fixed duplicated posts on "Load More" for random order
+*
+VERSION 2.1.1 - 02/10/2020
+* FIX - Fixed JS error in console
+* FIX - filtering orderby issue
+* FIX - Post Slug issue
+*
+VERSION 2.0 - 01/10/2020
+* NEW ADDITION - Added ability to add custom taxonomies
+                    1) Custom taxonomy added to the meta module - show and link to the tax single page.
+		                2) Filtering by custom taxonomy.
+* NEW ADDITION - Tabs / Accordion added to the Repeater module when using ACF Pro
+* NEW ADDITION - Linked Post Types - Show related posts by Post Object (ACF Type). This is helpful if you want to show specific posts on
+the single post
+* NEW ADDITION - Sort posts by ACF date field. You can sort by:
+                    1) Default = oldest to newest or visa versa
+                    2) Today and the future posts
+                    3) Today and the next 30 days of posts
+                    4) Past posts - yesterday and before
+* NEW ADDITION - Prettify your custom post type category URLS, It will change the URL to be post-type/category/single instead of /post-type_category/single
+* NEW ADDITION - Add ACF map
+* NEW ADDITION - Add html5 video for acf item module - self hosted videos
+* MOD - Add custom filters (Include categories, tags, custom taxonomy, acf field) to Post carousel and Post slider modules
+* MOD - Prettify URLS, modified Yoast SEO OG:URL to match the new url
+* MOD - If you filter posts by ACF with the archive module, it will automatically select this value in the filter module so that when you choose another filter, it will make sure that the original ACF filter will be applied too.
+* MOD - Category Loop Module will work with posts now
+* MOD - Reworked category loop module settings into sections
+* MOD - Added option to exclude categories from the category loop module
+* MOD - Modified the gallery module to work on the custom loop layout
+* MOD - Changed name of Gallery module to be Gallery/Slider
+* MOD - Added setting to change the min width of the filter items so on smaller screen sizes you can make it go to one column quicker
+* MOD - Added class name for meta item category, tag or taxonomy so you can target it with CSS
+* MOD - Added class names for all the taxonomies assigned to the post when using the archive loop module. It will be on the div with the class grid-col and will have the taxonomy_name (for example: cars_category-suv)
+* MOD - ACF Item: Added option to change the mobile stacking for the image and ACF value. You can have it not, stack or stack reverse.
+* MOD - Change "Attach to Post Type" setting for taxonomy to Select box from Text
+* FIX - Custom icon for ACF item button was not working
+* FIX - ACF filter by text field with spaces was not working
+* FIX - Fixed image not returning for category loop when return format is URL
+* FIX - Showing & Filtering post categories for CPT
+* FIX - Query by ACF was not working in some cases
+* FIX - Filtering for category & tag
+* FIX - Reset time delay
+* FIX - Filtering issue for search input field
+* FIX - Filtering issue for admin search
+* FIX - Filtering issue for number field with multiple value
+* FIX - Filtering issue for Radio / Checkbox fields
+* FIX - Fixed issue with Divi dynamic featured image background when category filter is selected
+* FIX - Responsive image issue on thumbnail and gallery modules
+* FIX - Fixed filtering count display issue
+* FIX - Filtering multi-select fields
+*
+VERSION 1.1.4 - 25/08/2020
+* COMPATIBILITY - Checked and works with WordPress 5.5
+* MOD - Archive Loop module, added option to change the background of the loading screen when filtering.
+* MOD - Removed transparent background for the section when filtering or loading more
+* MOD - ACF Item: Added option to change the size of the icon
+* MOD - ACF Item: Added option to change the button name of the file/URL
+* MOD - Execute masonry JS when all images have loaded too to help with slow loading websites.
+* MOD - Hide ACF if no value including the label
+* MOD - ACF Item: Font weight of item won't affect the icon
+* MOD - Search/Filter Item: Added option to customise the select colors
+* MOD - Better search
+* FIX - CSS Style issue for ajax filtering and load more
+* FIX - Align the last module was not working when more than one row
+* FIX - modified code to filter archive loop by ACF
+* FIX - Link whole card filters or load more was not working - now it is
+*
+VERSION 1.1.3.1 - 17/08/2020
+* FIX - Styling of columns was not working on the archive loop module
+* FIX - Post meta not showing categories
+*
+VERSION 1.1.3 - 07/08/2020
+* NEW ADDITION - Post Carousel: ability to show the related posts
+* MOD - Post Carousel: Fixed tags not showing
+* MOD - Post Carousel: Changed the settings from entering in the font icon code to selecting one
+* MOD - Filter Posts: added option to change the appearance of the heading for the filters
+* MOD - added ability to filter the posts by pressing "enter" when typing text in the search text box
+* MOD - Link whole grid is now using JS and not hard coded a href link. This will allow you to have a button in the custom loop layout
+* MOD - Added debug mode to the carousel module
+* MOD - Filter module: When resetting the filters and using the button to update, it will repopulate the posts
+* MOD - ACF Item - add class "dmach-acf-has-value" to the module if it has a value, if empty it will not show
+* FIX - Related posts with common tags was not working
+* FIX - Gallery: Fixed error message when no images uploaded
+* FIX - Fixed filtering only specific tag when on that tags page
+* FIX - some PHP warnings
+* FIX - Custom search issue
+* FIX - Fixed Column issue with row & column of Archiveloop module
+* FIX - php warnings
+* FIX - CSS important for margins on the title module
+*
+VERSION 1.1.2 - 08/07/2020
+* NEW ADDITION - Added option to define rewrite with the front base - (example: if your permalink structure is /blog/, then your links will be: false->/cars/, true->/blog/cars/)
+* MOD - Hide whole module if empty (fixes issues with background colour etc)
+* MOD - Archive Loop: Added option to change related posts to be tags or categories
+* MOD - ACF Item: Added option to remove title of the link and file field as well as the URL
+* FIX - When resetting the filters, it will make "all" for checkbox as default
+* FIX - Filter posts by tags was not working
+* FIX - Filter archive loop by acf field
+* FIX - Fixed issue with css conflict of section, row and column when filtering
+* FIX - Minor php warnings
+* FIX - Shows category image (acf) when on category page
+* FIX - When on category or author page and filtering, it will not only filter these posts (cateogory or author) and not all
+*
+VERSION 1.1.1 - 21/07/2020
+* MOD - Changed CSS so that it fixes the load more hidding behind the posts
+* FIX - Tags not filtering
+* FIX - Ajax filter sort was causing no posts filtering in some cases
+* FIX - Fixed issue with filtering count
+*
+VERSION 1.1 - 16/07/2020
+* NEW ADDITION - Added ability to show related posts (archive loop > Loop options > Post Display Type)
+* NEW ADDITION - Added number count for our checkbox / Radio filter items. You can now see the amount of posts available in this option
+* NEW ADDITION - Ability to create a table of data using the repeater field (pro version of ACF only) and the repeater module
+* NEW ADDITION - Added compatibility with the post object ACF item
+* MOD - ACF Item: Added option to make checkbox as bullet or numbered list
+* MOD - Improved search accuracy
+* MOD - Grid compatiable with IE to a certain extent. We are limited in what we can do here
+* MOD - Post Content: Added ability to show excert too
+* MOD - ACF Item: Added prepend and append values from ACF settings
+* MOD - Gallery: Added option to customise the hover icon and overlay of the grid gallery
+* FIX - Fixed issue with showing all the categories in the meta module
+* FIX - Fixed issue where post category would not show the specific posts needed, it would show all.
+* FIX - Fixed issue with sorting (orderby) posts by integer like a price
+* FIX - One grid column was not working
+* FIX - Fixed issue when creating a custom loop and specifying a category for projects, it was not working
+* FIX - Reset filters was not resetting the sliders
+* FIX - Spelling mistakes
+* FIX - limited custom post slug to 20 characters
+* FIX - Video Oembed not working
+* FIX - reload of checkbox field on a normal page (archive loop)
+*
+VERSION 1.0 - 01/07/2020
+* Initial Launch

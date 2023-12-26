@@ -1,0 +1,14 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+@media screen and (min-device-width: 300px) and (max-device-width: 768px) { 
+.tabs-- .et_pb_tab {
+    padding: 0px !important;
+}
+}
+.menu-- ul.sub-menu li a::after {
+    transform: rotate(-90deg);
+}
+.slider-- .et_pb_de_mach_acf_slider_containter_nav.slick-initialized.slick-slider {
+    display: none !important;
+}</style>
+<!-- end Simple Custom CSS and JS -->

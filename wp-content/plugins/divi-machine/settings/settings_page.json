@@ -1,0 +1,22 @@
+{
+    "divi-engine": {
+        "header": {
+            "title": "Welcome to Divi Engine",
+            "video_url": "https://www.youtube.com/embed/jKio-EA4I0k",
+            "video_thumbnail": ""
+        },
+        "support": {
+            "text_1": "",
+            "buttons": {
+                "button_docs": {                    
+                    "button_name" : "Documentation",                
+                    "button_url" : "https://help.diviengine.com/"
+                },
+                "button_support": {                    
+                    "button_name" : "Get Help",                
+                    "button_url" : "https://diviengine.atlassian.net/servicedesk/"
+                }
+            }
+        }
+    }
+}

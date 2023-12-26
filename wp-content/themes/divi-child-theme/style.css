@@ -1,0 +1,31 @@
+/*
+Theme Name: Divi Child Theme
+Author: 
+Description: Your description goes here
+Version: 1.0
+Template: Divi
+
+This is the child theme for Divi theme, generated with Generate Child Theme plugin by catchthemes.
+
+(optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
+*/
+.faq- .et_pb_accordion_item {
+    border-top: 1px solid #00000078 !important;
+    border-bottom: 0px !important;
+    padding: 10px 0px !important;
+    margin-bottom: 0px !important;
+}
+.tabs-- ul.et_pb_tabs_controls.clearfix {
+    border: 0px !important;
+    background: #0000 !important;
+    box-shadow: none !important;
+}
+.tabs-- ul.et_pb_tabs_controls.clearfix::after {
+    opacity: 0;
+}
+@media screen and (min-device-width: 300px) and (max-device-width: 768px) { 
+.tabs-- .et_pb_tab {
+    padding: 0px !important;
+}
+}
+

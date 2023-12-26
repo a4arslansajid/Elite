@@ -1,0 +1,3844 @@
+# Copyright (C) 2023 Divi Engine
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Divi Ajax Filters 2.3.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/divi-ajax-filter\n"
+"POT-Creation-Date: 2023-02-15 08:06:52+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: includes/modules/FilterPosts/FilterPosts.php:449
+#: includes/modules/FilterPosts/FilterPosts.php:473
+#: includes/modules/FilterPosts/FilterPosts.php:493
+msgid "1"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:450
+#: includes/modules/FilterPosts/FilterPosts.php:474
+#: includes/modules/FilterPosts/FilterPosts.php:494
+msgid "2"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:451
+#: includes/modules/FilterPosts/FilterPosts.php:475
+#: includes/modules/FilterPosts/FilterPosts.php:495
+msgid "3"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:452
+#: includes/modules/FilterPosts/FilterPosts.php:476
+msgid "4"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:453
+#: includes/modules/FilterPosts/FilterPosts.php:477
+msgid "5"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:454
+#: includes/modules/FilterPosts/FilterPosts.php:478
+msgid "6"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:455
+msgid "7"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:456
+msgid "8"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:457
+msgid "9"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:458
+msgid "10"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Divi Engine"
+msgstr ""
+
+#: daf-page-settings.php:29
+msgid "Visual Builder"
+msgstr ""
+
+#: daf-page-settings.php:49
+msgid ""
+"Choose the type of post you'd like to display in the visual builder "
+"preview. Requires reload to take effect"
+msgstr ""
+
+#: includes/DiviFilterModules.php:125 includes/classes/init.class.php:48
+#: includes/modules/Thumbnail/Thumbnail.php:183
+msgid "Please select an ACF field"
+msgstr ""
+
+#: includes/ajaxcalls/post_ajax.php:2662
+msgid "Showing all %d results"
+msgstr ""
+
+#: includes/ajaxcalls/post_ajax.php:2664
+msgid "Showing 1-%d of %d results"
+msgstr ""
+
+#: includes/classes/class.options.php:222
+#: includes/classes/class.options.php:323
+msgid ""
+"There was a problem connecting to diviengine.com. It seems our firewall "
+"blocked you from accessing our server. Please contact support with this Ray "
+"ID: "
+msgstr ""
+
+#: includes/classes/class.options.php:224
+#: includes/classes/class.options.php:325
+msgid "There was a problem connecting to "
+msgstr ""
+
+#: includes/classes/class.options.php:264
+msgid "There was a problem deactivating the licence: "
+msgstr ""
+
+#: includes/classes/class.options.php:292
+msgid "License Key can't be empty"
+msgstr ""
+
+#: includes/classes/class.options.php:353
+msgid "There was a problem activating the licence: "
+msgstr ""
+
+#: includes/classes/class.options.php:377
+#: includes/classes/class.options.php:427
+#: includes/classes/class.options.php:474
+msgid "Divi Ajax Filter Software License"
+msgstr ""
+
+#: includes/classes/class.options.php:389
+#: includes/classes/class.options.php:435
+msgid "License Key"
+msgstr ""
+
+#: includes/classes/class.options.php:394
+#: includes/classes/class.options.php:480
+msgid ""
+"Enter the License Key you got when bought this product. If you lost the "
+"key, you can always retrieve it from"
+msgstr ""
+
+#: includes/classes/class.options.php:394
+#: includes/classes/class.options.php:395
+#: includes/classes/class.options.php:480
+#: includes/classes/class.options.php:481
+msgid "My Account"
+msgstr ""
+
+#: includes/classes/class.options.php:395
+#: includes/classes/class.options.php:481
+msgid "More keys can be generate from"
+msgstr ""
+
+#: includes/classes/class.options.php:404
+msgid "Save"
+msgstr ""
+
+#: includes/classes/class.options.php:421
+#: includes/classes/class.options.php:472
+msgid "General Settings"
+msgstr ""
+
+#: includes/classes/class.options.php:450
+msgid "You can generate more keys from"
+msgstr ""
+
+#: includes/classes/class.options.php:478
+msgid "License Key Required"
+msgstr ""
+
+#: includes/classes/class.updater.php:74
+msgid "An error occour when try to identify the pluguin."
+msgstr ""
+
+#: includes/classes/class.updater.php:74 includes/classes/class.updater.php:80
+msgid "Try again"
+msgstr ""
+
+#: includes/classes/class.updater.php:80
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr ""
+
+#: includes/daf-settings.php:123
+msgid "Divi Ajax Filter"
+msgstr ""
+
+#: includes/daf-settings.php:130
+msgid "Filter individual variation prices for price range filter?"
+msgstr ""
+
+#: includes/daf-settings.php:134
+msgid ""
+"If this is enabled, it will show the product if ANY of the variations are "
+"within the price range filter. If you want it so that it only shows the "
+"product if ALL of the variations are in the specified price range, disable "
+"this."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:30
+msgid "ARP Product Loop - Archive Pages"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:36
+msgid "Archive Loop - Divi Ajax Filter"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:88
+msgid "Module Options"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:90
+#: includes/modules/MachineLoop/MachineLoop.php:35
+msgid "Loop Options"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:94
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:112
+#: includes/modules/MachineLoop/MachineLoop.php:42
+msgid "Include Terms"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:97
+msgid "Terms on load Only"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:105
+msgid "Loop Layout Options"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:109
+#: includes/modules/MachineLoop/MachineLoop.php:39
+msgid "General"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:115
+#: includes/modules/MachineLoop/MachineLoop.php:54
+msgid "Grid Options"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:119
+#: includes/modules/MachineLoop/MachineLoop.php:53
+msgid "Element Options"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:120
+msgid "Default Layout Options"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:125
+#: includes/modules/FilterPosts/FilterPosts.php:53
+#: includes/modules/MachineLoop/MachineLoop.php:61
+#: includes/modules/PostTitle/PostTitle.php:66
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:78
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:90
+#: includes/modules/Thumbnail/Thumbnail.php:60
+msgid "Text"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:128
+msgid "Loading Animation"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:130
+#: includes/modules/MachineLoop/MachineLoop.php:62
+msgid "Overlay"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:131
+msgid "Product"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:133
+msgid "Default Style Options"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:157
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:244
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:497
+#: includes/modules/MachineLoop/MachineLoop.php:843
+msgid "Pagination"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:177
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1152
+#: includes/modules/MachineLoop/MachineLoop.php:725
+#: includes/modules/PostTitle/PostTitle.php:76
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:191
+msgid "Title"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:192
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1160
+msgid "Price"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:211
+msgid "Excerpt"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:226
+msgid "Category Title"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:235
+msgid "Category Count"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:253
+msgid "Active Pagination"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:269
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:352
+msgid "Default Layout - Add To Cart Button"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:281
+#: includes/modules/MachineLoop/MachineLoop.php:107
+msgid "Button - Load More"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:303
+msgid "Default Layout - Product Box Shadow"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:316
+msgid "Default Layout - Product"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:320
+msgid "Default Layout - Onsale"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:324
+#: includes/modules/MachineLoop/MachineLoop.php:143
+msgid "Default Layout - Image"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:328
+#: includes/modules/MachineLoop/MachineLoop.php:147
+msgid "Default Layout - Overlay"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:332
+#: includes/modules/MachineLoop/MachineLoop.php:74
+#: includes/modules/MachineLoop/MachineLoop.php:151
+msgid "Default Layout - Title"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:336
+msgid "Default Layout - Rating"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:340
+msgid "Default Layout - Price"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:344
+msgid "Default Layout - Old Price"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:348
+msgid "Default Layout - Product Excerpt"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:359
+msgid "9EtJRhTf9_o"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:360
+msgid "BodyCommcerce Product Page Template Guide"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:371
+#: includes/modules/MachineLoop/MachineLoop.php:178
+#: includes/modules/MachineLoop/MachineLoop.php:1417
+#: includes/modules/MachineLoop/MachineLoop.php:1801
+msgid "Auto Detect"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:374
+msgid "Variable Products as Single Products"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:375
+#: includes/modules/MachineLoop/MachineLoop.php:189
+#: includes/modules/MachineLoop/MachineLoop.php:419
+#: includes/modules/MachineLoop/MachineLoop.php:471
+#: includes/modules/MachineLoop/MachineLoop.php:791
+#: includes/modules/Thumbnail/Thumbnail.php:186
+#: includes/modules/Thumbnail/Thumbnail.php:193
+#: includes/modules/Thumbnail/Thumbnail.php:199
+msgid "Default"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:379
+msgid "Wishlist"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:386
+#: includes/modules/MachineLoop/MachineLoop.php:205
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:615
+msgid "Post Type"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:393
+#: includes/modules/MachineLoop/MachineLoop.php:213
+msgid "Choose the post type you want to display"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:397
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1183
+msgid "Display Type"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:401
+msgid ""
+"Choose the display type, if you have wishlist enabled for example - it will "
+"appear here"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:405
+msgid "Loop Style"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:416
+msgid "Default (WooCommerce Only)"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:417
+msgid "Custom Layout"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:419
+msgid ""
+"Choose the loop style you want, default will result in the normal "
+"WooCommerce style but if you want to create your own one using a loop "
+"layout created in the Divi Library, choose custom."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:423
+msgid "Loop Layout"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:429
+msgid "Choose the layout you have made for each product in the loop."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:434
+#: includes/modules/MachineLoop/MachineLoop.php:281
+msgid "Is Main Loop?"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:438
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:454
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:467
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:552
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:590
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:738
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:755
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:772
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:782
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:804
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:821
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:916
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1007
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1068
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1079
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1090
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1101
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1112
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1134
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1228
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1245
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1260
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1276
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1304
+#: includes/modules/FilterPosts/FilterPosts.php:328
+#: includes/modules/FilterPosts/FilterPosts.php:396
+#: includes/modules/FilterPosts/FilterPosts.php:420
+#: includes/modules/FilterPosts/FilterPosts.php:560
+#: includes/modules/FilterPosts/FilterPosts.php:596
+#: includes/modules/FilterPosts/FilterPosts.php:627
+#: includes/modules/FilterPosts/FilterPosts.php:687
+#: includes/modules/FilterPosts/FilterPosts.php:719
+#: includes/modules/MachineLoop/MachineLoop.php:285
+#: includes/modules/MachineLoop/MachineLoop.php:319
+#: includes/modules/MachineLoop/MachineLoop.php:436
+#: includes/modules/MachineLoop/MachineLoop.php:451
+#: includes/modules/MachineLoop/MachineLoop.php:865
+#: includes/modules/MachineLoop/MachineLoop.php:917
+#: includes/modules/MachineLoop/MachineLoop.php:988
+#: includes/modules/MachineLoop/MachineLoop.php:1016
+#: includes/modules/MachineLoop/MachineLoop.php:1059
+#: includes/modules/MachineLoop/MachineLoop.php:1072
+#: includes/modules/MachineLoop/MachineLoop.php:1087
+#: includes/modules/MachineLoop/MachineLoop.php:1104
+#: includes/modules/MachineLoop/MachineLoop.php:1115
+#: includes/modules/MachineLoop/MachineLoop.php:1140
+#: includes/modules/MachineLoop/MachineLoop.php:1153
+#: includes/modules/MachineLoop/MachineLoop.php:1188
+#: includes/modules/MachineLoop/MachineLoop.php:1234
+#: includes/modules/MachineLoop/MachineLoop.php:1247
+#: includes/modules/MachineLoop/MachineLoop.php:1310
+#: includes/modules/PostTitle/PostTitle.php:244
+#: includes/modules/PostTitle/PostTitle.php:258
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:693
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:706
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:741
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:919
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:950
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:974
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:991
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1008
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1050
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1065
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1185
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1270
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1330
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1347
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1408
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1487
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1516
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1545
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1884
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1944
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1959
+#: includes/modules/Thumbnail/Thumbnail.php:228
+#: includes/modules/Thumbnail/Thumbnail.php:241
+#: includes/modules/Thumbnail/Thumbnail.php:254
+#: includes/modules/Thumbnail/Thumbnail.php:300
+#: includes/modules/Thumbnail/Thumbnail.php:313
+#: includes/modules/Thumbnail/Thumbnail.php:383
+#: includes/modules/Thumbnail/Thumbnail.php:397
+msgid "Yes"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:439
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:455
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:468
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:553
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:591
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:737
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:754
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:771
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:783
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:805
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:820
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:917
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1006
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1069
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1080
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1091
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1102
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1113
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1135
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1229
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1246
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1259
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1275
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1305
+#: includes/modules/FilterPosts/FilterPosts.php:329
+#: includes/modules/FilterPosts/FilterPosts.php:397
+#: includes/modules/FilterPosts/FilterPosts.php:421
+#: includes/modules/FilterPosts/FilterPosts.php:561
+#: includes/modules/FilterPosts/FilterPosts.php:597
+#: includes/modules/FilterPosts/FilterPosts.php:628
+#: includes/modules/FilterPosts/FilterPosts.php:688
+#: includes/modules/FilterPosts/FilterPosts.php:720
+#: includes/modules/MachineLoop/MachineLoop.php:286
+#: includes/modules/MachineLoop/MachineLoop.php:320
+#: includes/modules/MachineLoop/MachineLoop.php:437
+#: includes/modules/MachineLoop/MachineLoop.php:452
+#: includes/modules/MachineLoop/MachineLoop.php:866
+#: includes/modules/MachineLoop/MachineLoop.php:918
+#: includes/modules/MachineLoop/MachineLoop.php:989
+#: includes/modules/MachineLoop/MachineLoop.php:1017
+#: includes/modules/MachineLoop/MachineLoop.php:1060
+#: includes/modules/MachineLoop/MachineLoop.php:1073
+#: includes/modules/MachineLoop/MachineLoop.php:1088
+#: includes/modules/MachineLoop/MachineLoop.php:1103
+#: includes/modules/MachineLoop/MachineLoop.php:1114
+#: includes/modules/MachineLoop/MachineLoop.php:1139
+#: includes/modules/MachineLoop/MachineLoop.php:1152
+#: includes/modules/MachineLoop/MachineLoop.php:1187
+#: includes/modules/MachineLoop/MachineLoop.php:1235
+#: includes/modules/MachineLoop/MachineLoop.php:1246
+#: includes/modules/MachineLoop/MachineLoop.php:1311
+#: includes/modules/PostTitle/PostTitle.php:245
+#: includes/modules/PostTitle/PostTitle.php:259
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:694
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:707
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:742
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:920
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:951
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:975
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:992
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1009
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1051
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1066
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1186
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1271
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1331
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1348
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1409
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1488
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1517
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1546
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1885
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1945
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1960
+#: includes/modules/Thumbnail/Thumbnail.php:229
+#: includes/modules/Thumbnail/Thumbnail.php:242
+#: includes/modules/Thumbnail/Thumbnail.php:255
+#: includes/modules/Thumbnail/Thumbnail.php:301
+#: includes/modules/Thumbnail/Thumbnail.php:314
+#: includes/modules/Thumbnail/Thumbnail.php:382
+#: includes/modules/Thumbnail/Thumbnail.php:398
+msgid "No"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:442
+#: includes/modules/MachineLoop/MachineLoop.php:289
+msgid ""
+"Choose if you want to make this loop as main loop on the page - the filter "
+"will affect this loop."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:450
+msgid "Show Default OrderBy Menu"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:458
+msgid "Show/Hide the sorting dropdown menu in the frontend."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:463
+msgid "Show Results Count"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:471
+msgid "Show/Hide products count."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:479
+msgid "Results Count Position"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:483
+msgid "Top"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:484
+msgid "Bottom"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:487
+msgid "Select the position of the products count related with Product Loop."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:492
+#: includes/modules/MachineLoop/MachineLoop.php:838
+msgid "Choose how to display load more posts"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:496
+#: includes/modules/MachineLoop/MachineLoop.php:842
+msgid "Load More"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:498
+#: includes/modules/MachineLoop/MachineLoop.php:844
+msgid "Infinite Scroll"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:499
+#: includes/modules/FilterPosts/FilterPosts.php:702
+#: includes/modules/MachineLoop/MachineLoop.php:845
+msgid "None"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:514
+#: includes/modules/MachineLoop/MachineLoop.php:894
+msgid "Load More Text"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:518
+#: includes/modules/MachineLoop/MachineLoop.php:901
+msgid "Add the text for the load more button"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:523
+#: includes/modules/MachineLoop/MachineLoop.php:906
+msgid "Load More Loading Text"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:531
+#: includes/modules/MachineLoop/MachineLoop.php:910
+msgid "Add the text for the load more button when it is loading"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:536
+msgid "Load More Button Alignment"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:539
+#: includes/modules/FilterPosts/FilterPosts.php:658
+#: includes/modules/FilterPosts/FilterPosts.php:703
+#: includes/modules/MachineLoop/MachineLoop.php:939
+msgid "Left"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:540
+msgid "Center"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:541
+#: includes/modules/FilterPosts/FilterPosts.php:659
+#: includes/modules/FilterPosts/FilterPosts.php:704
+#: includes/modules/MachineLoop/MachineLoop.php:940
+msgid "Right"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:545
+msgid "Set the position of the Load More Button"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:548
+#: includes/modules/MachineLoop/MachineLoop.php:861
+msgid "Scroll to Top After Ajax Update"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:563
+#: includes/modules/FilterPosts/FilterPosts.php:332
+#: includes/modules/MachineLoop/MachineLoop.php:870
+msgid ""
+"If you want to scroll to a section after the update of the ajax filter, "
+"enable this."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:570
+#: includes/modules/FilterPosts/FilterPosts.php:370
+#: includes/modules/MachineLoop/MachineLoop.php:877
+msgid "Fine Tune the position"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:586
+msgid "Disable products when category has child categories?"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:595
+msgid ""
+"Only works on categories. If you are on a category page and the category "
+"has sub-categories, you can disable the products to be shown with this "
+"setting."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:599
+msgid "Exclude Categories (comma-seperated)"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:604
+msgid ""
+"Add a list of category slugs that you want to exclude from show. "
+"(comma-seperated)"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:608
+msgid "Exclude Products"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:613
+msgid ""
+"Add a list of product ids that you want to exclude from show. "
+"(comma-seperated)"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:621
+#: includes/modules/MachineLoop/MachineLoop.php:658
+msgid "Include Categories on load ONLY (Slug comma-seperated)"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:623
+#: includes/modules/MachineLoop/MachineLoop.php:666
+msgid ""
+"Add a list of categories you want to show ONLY on load - not included in "
+"the ajax filters. (comma-seperated)"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:631
+#: includes/modules/MachineLoop/MachineLoop.php:672
+msgid "Include Tags on load ONLY (Slug comma-seperated)"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:633
+#: includes/modules/MachineLoop/MachineLoop.php:680
+msgid ""
+"Add a list of tags you want to show ONLY on load - not included in the ajax "
+"filters. (comma-seperated)"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:640
+#: includes/modules/MachineLoop/MachineLoop.php:685
+msgid "Include Custom Taxonomy on load ONLY"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:646
+#: includes/modules/MachineLoop/MachineLoop.php:693
+msgid "Choose the custom taxonomy that you want to include on load only"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:654
+#: includes/modules/MachineLoop/MachineLoop.php:699
+msgid "Include Custom Taxonomy Values on load ONLY (comma-seperated)"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:656
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1060
+#: includes/modules/MachineLoop/MachineLoop.php:619
+#: includes/modules/MachineLoop/MachineLoop.php:707
+msgid ""
+"Add a list of values that you want to show - make sure to specify the "
+"custom taxonomy above, it will then show the posts that have the values "
+"here from that custom taxonomy. (comma-seperated)"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:661
+#: includes/modules/MachineLoop/MachineLoop.php:229
+msgid "Filter/Infinite Scroll Icon Animation"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:664
+#: includes/modules/MachineLoop/MachineLoop.php:232
+msgid "Three Lines Vertical"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:665
+#: includes/modules/MachineLoop/MachineLoop.php:233
+msgid "Three Lines Horizontal"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:666
+#: includes/modules/MachineLoop/MachineLoop.php:234
+msgid "Three Dots Bouncing"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:667
+#: includes/modules/MachineLoop/MachineLoop.php:235
+msgid "Donut"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:668
+#: includes/modules/MachineLoop/MachineLoop.php:236
+msgid "Donut Multiple"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:669
+#: includes/modules/MachineLoop/MachineLoop.php:237
+msgid "Ripple"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:673
+#: includes/modules/MachineLoop/MachineLoop.php:241
+msgid "Choose the animation style for when loading the posts"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:676
+msgid "Ajax Filter Animation Icon Color"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:677
+#: includes/modules/MachineLoop/MachineLoop.php:245
+msgid "Define the color of the animation you choose above."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:685
+msgid "Ajax Filter Background Color"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:686
+#: includes/modules/MachineLoop/MachineLoop.php:253
+msgid "Define the color of the background when it is loading."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:713
+msgid "Posts Number"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:716
+msgid ""
+"Choose how many posts you would like to display per page. Divi sometimes "
+"overrides this. To set it go to Divi > Theme Options and change the value "
+"\"Number of Products displayed on WooCommerce archive pages\""
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:721
+msgid "No Results Layout"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:726
+msgid "Choose the layout you want to appear when there are no products."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:734
+msgid "Hide non purchasable products?"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:746
+msgid "If you want to hide non purchasable products, enable this."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:751
+msgid "Link each layout to post/product"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:763
+msgid ""
+"Enable this if you want to link each loop layout to the product. For "
+"example if you want the whole \"grid card\" to link to the product page. "
+"NB: You need to have no other links on the loop layout so do not link the "
+"image or the title to the product page."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:768
+#: includes/modules/MachineLoop/MachineLoop.php:1136
+msgid "Open in New Tab?"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:775
+#: includes/modules/MachineLoop/MachineLoop.php:1145
+msgid "Enable this if you want it to open in a new tab."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:778
+#: includes/modules/MachineLoop/MachineLoop.php:1229
+msgid "Equal Height Grid Cards"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:794
+#: includes/modules/MachineLoop/MachineLoop.php:1237
+msgid ""
+"Enable this if you have the grid layout and want all your cards to be the "
+"same height."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:800
+msgid "Equal Height  on mobile?"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:809
+msgid ""
+"We will disable equal height on mobile. If you want it to stay, enable "
+"this.."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:816
+#: includes/modules/MachineLoop/MachineLoop.php:1242
+msgid "Align last module at the bottom"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:823
+#: includes/modules/MachineLoop/MachineLoop.php:1249
+msgid ""
+"Enable this to align the last module (probably the add to cart) at the "
+"bottom. Works well when using the equal height."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:826
+#: includes/modules/MachineLoop/MachineLoop.php:1211
+msgid "Masonry Ajax Filter Buffer"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:841
+#: includes/modules/MachineLoop/MachineLoop.php:1224
+msgid ""
+"When using masonry, after ajax we need to re-sort the posts and create the "
+"masonry. Depending on your site you might need to increase this to run our "
+"code after the posts are loaded."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:846
+msgid "Layout Style"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:850
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1187
+#: includes/modules/MachineLoop/MachineLoop.php:1198
+msgid "Grid"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:851
+msgid "List"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:852
+#: includes/modules/MachineLoop/MachineLoop.php:1199
+msgid "Masonry"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:858
+msgid "Choose if you want it displayed as a list or a grid layout"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:863
+#: includes/modules/MachineLoop/MachineLoop.php:1254
+msgid "Grid Columns"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:868
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:886
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:904
+#: includes/modules/MachineLoop/MachineLoop.php:1260
+#: includes/modules/MachineLoop/MachineLoop.php:1279
+#: includes/modules/MachineLoop/MachineLoop.php:1296
+msgid "Two"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:869
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:887
+#: includes/modules/MachineLoop/MachineLoop.php:1261
+#: includes/modules/MachineLoop/MachineLoop.php:1280
+msgid "Three"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:870
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:888
+#: includes/modules/MachineLoop/MachineLoop.php:1262
+#: includes/modules/MachineLoop/MachineLoop.php:1281
+msgid "Four"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:871
+#: includes/modules/MachineLoop/MachineLoop.php:1263
+msgid "Five"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:872
+#: includes/modules/MachineLoop/MachineLoop.php:1264
+msgid "Six"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:875
+#: includes/modules/MachineLoop/MachineLoop.php:1269
+msgid "How many columns do you want to see"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:880
+#: includes/modules/MachineLoop/MachineLoop.php:1273
+msgid "Tablet Grid Columns"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:885
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:903
+#: includes/modules/MachineLoop/MachineLoop.php:1259
+#: includes/modules/MachineLoop/MachineLoop.php:1278
+#: includes/modules/MachineLoop/MachineLoop.php:1295
+msgid "One"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:893
+#: includes/modules/MachineLoop/MachineLoop.php:1286
+msgid "How many columns do you want to see on tablet"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:898
+#: includes/modules/MachineLoop/MachineLoop.php:1290
+msgid "Mobile Grid Columns"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:907
+#: includes/modules/MachineLoop/MachineLoop.php:1301
+msgid "How many columns do you want to see on mobile"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:912
+#: includes/modules/MachineLoop/MachineLoop.php:1306
+msgid "Custom Gutter Gaps"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:919
+#: includes/modules/MachineLoop/MachineLoop.php:1313
+msgid "Enable this if you want custom gutter gaps for row and columns."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:932
+#: includes/modules/MachineLoop/MachineLoop.php:1324
+msgid "Gutter Row Gap"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:933
+#: includes/modules/MachineLoop/MachineLoop.php:1325
+msgid "Set the distance between each grid item vertically."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:952
+#: includes/modules/MachineLoop/MachineLoop.php:1343
+msgid "Gutter Column Gap"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:953
+#: includes/modules/MachineLoop/MachineLoop.php:1344
+msgid "Set the distance between each grid item horizontally."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1003
+msgid "Define Custom Terms?"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1024
+msgid ""
+"Enable this to create your own query, you can set the post number and to "
+"include products with specific tags only."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1029
+msgid "Include Categories"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1032
+msgid ""
+"Add a list of categories that you ONLY want to show. This will remove all "
+"products that dont have these. (comma-seperated)"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1037
+msgid "Include Tags"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1040
+msgid ""
+"Add a list of tags that you ONLY want to show. This will remove all "
+"products that dont have these tags. (comma-seperated)"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1045
+#: includes/modules/MachineLoop/MachineLoop.php:596
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:605
+msgid "Choose Your Taxonomy"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1052
+#: includes/modules/MachineLoop/MachineLoop.php:605
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:611
+msgid "Choose the custom taxonomy that you have made and want to filter"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1058
+msgid "Include Custom Taxonomy (comma-seperated)"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1065
+msgid "Display featured products?"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1076
+msgid "Display Most Popular products?"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1087
+msgid "Display On Sale products?"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1098
+msgid "Out of Stock products only?"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1109
+msgid "New products only?"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1123
+msgid "Number of days"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1126
+msgid "Define the number of days you want to show the products"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1131
+msgid "Show Hidden Products?"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1148
+msgid "What do you want to sort your products by?"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1151
+#: includes/modules/MachineLoop/MachineLoop.php:723
+msgid "Date"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1153
+#: includes/modules/MachineLoop/MachineLoop.php:724
+msgid "Relevance"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1154
+msgid "Popularity"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1155
+#: includes/modules/MachineLoop/MachineLoop.php:726
+msgid "ID"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1156
+#: includes/modules/MachineLoop/MachineLoop.php:727
+msgid "Random"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1157
+#: includes/modules/MachineLoop/MachineLoop.php:728
+msgid "Menu Order"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1158
+#: includes/modules/MachineLoop/MachineLoop.php:729
+msgid "Name"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1159
+#: includes/modules/MachineLoop/MachineLoop.php:730
+msgid "Modified"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1161
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:6234
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:6284
+msgid "Stock Status"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1165
+msgid "Choose what you want to sort the product by."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1170
+#: includes/modules/MachineLoop/MachineLoop.php:720
+msgid "Sort Order"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1173
+#: includes/modules/MachineLoop/MachineLoop.php:827
+msgid "Ascending"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1174
+#: includes/modules/MachineLoop/MachineLoop.php:828
+msgid "Descending"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1178
+#: includes/modules/MachineLoop/MachineLoop.php:745
+#: includes/modules/MachineLoop/MachineLoop.php:804
+#: includes/modules/MachineLoop/MachineLoop.php:834
+msgid "Choose the sort order of the products."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1188
+msgid "Classic Blog"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1200
+msgid "Columns Number"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1204
+msgid "-- Default --"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1205
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1206
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1207
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1208
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1209
+msgid "%1$s Columns"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1210
+msgid "1 Column"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1217
+msgid "Choose how many columns to display. Default is 3."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1224
+msgid "Show Rating"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1241
+msgid "Show Price"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1255
+msgid "Show Excerpt"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1271
+msgid "Show Add To Cart Button"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1287
+msgid "Sale Badge Color"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1296
+msgid "Rating Stars Color"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1301
+msgid "Use Overlay"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1317
+msgid "Icon Color"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1325
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1333
+msgid "Icon Picker"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1345
+msgid "Product Background"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1354
+msgid "Product Padding"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1363
+msgid "Pagination Background"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1364
+msgid "Define the background color of the pagination item."
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1374
+msgid "Active Pagination Background"
+msgstr ""
+
+#: includes/modules/ArchiveLoop/ArchiveLoop.php:1375
+msgid "Define the background color of the active pagination item."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:21
+msgid "Filter Posts - Divi Machine"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:26
+msgid "ARP Filter Posts - Archive Pages"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:31
+msgid "Filter Posts - Divi Ajax Filter"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:39
+#: includes/modules/FilterPosts/FilterPosts.php:47
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:37
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:43
+msgid "Filter Item"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:44
+#: includes/modules/MachineLoop/MachineLoop.php:32
+#: includes/modules/PostTitle/PostTitle.php:59
+#: includes/modules/Thumbnail/Thumbnail.php:55
+msgid "Main Options"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:45
+msgid "Layout Options"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:46
+msgid "Mobile Options"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:48
+msgid "Toggle Appearance"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:62
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:176
+msgid "Item"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:81
+msgid "Filter Heading"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:101
+msgid "All Buttons"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:121
+msgid "Search Button"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:141
+msgid "Reset Filter"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:159
+msgid "Filter Parameters"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:179
+msgid "Mobile Toggle Button"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:200
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:354
+msgid "Fields"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:264
+msgid "Filter Item Box Shadow"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:284
+msgid "How to Add a Filter Field"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:288
+msgid "Cómo mostrar los parámetros de filtrado"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:292
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:84
+msgid "Conditional Logic"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:296
+msgid "Category Options"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:309
+msgid "Filter Update Type"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:312
+msgid "Update via button"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:313
+msgid "Update after each field change"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:321
+msgid "Choose the post type you want to search"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:324
+msgid "Scroll to Section After Ajax Update"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:342
+msgid "When To use Scroll To?"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:345
+msgid "Both Desktop, Tablet & Mobile"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:346
+msgid "Desktop Only"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:347
+msgid "Tablet & Mobile"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:348
+msgid "Mobile Only"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:352
+msgid "Specify when you want it to scroll to - on desktop, mobile or all?"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:357
+msgid "Where to Scroll?"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:360
+msgid "Top of Posts"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:361
+msgid "Top of Orderby"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:362
+msgid "Top of Filters"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:366
+msgid "Choose where to scroll to."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:384
+msgid "Filter Button Text"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:387
+msgid "Search"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:389
+msgid "Choose what you want the search button to say"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:392
+msgid "Filter & Reset Buttons Side By Side?"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:401
+msgid "If you want the buttons to be side by side, please enable this."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:406
+msgid "Reset Text"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:409
+msgid "Reset"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:410
+msgid "Choose what you want the reset button text to say"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:416
+msgid "Enable Select2 for your Select Options?"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:424
+msgid ""
+"If you want to use Select2 on one or more of your select options in the "
+"filter, enable this. This will enqueue the Select2 JS and CSS to make this "
+"work."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:429
+msgid "Filter Location"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:432
+msgid "Side Columm"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:433
+msgid "Fullwidth Column"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:441
+msgid ""
+"Choose where you are placing the filter, this will change the appearance "
+"and the settings in the design tab"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:445
+msgid "Number of Columns Desktop"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:448
+#: includes/modules/FilterPosts/FilterPosts.php:472
+#: includes/modules/FilterPosts/FilterPosts.php:492
+msgid "Auto"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:465
+#: includes/modules/FilterPosts/FilterPosts.php:485
+#: includes/modules/FilterPosts/FilterPosts.php:502
+msgid ""
+"We will evenly divide the space between the number of filters unless you "
+"specify the number here."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:469
+msgid "Number of Columns Tablet"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:489
+msgid "Number of Columns Mobile"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:505
+msgid "Column Min Width"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:518
+#: includes/modules/FilterPosts/FilterPosts.php:534
+msgid "Set the gap between the columns."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:521
+msgid "Gap Between Columns"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:538
+msgid "Filter Style"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:541
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1440
+msgid "Normal"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:542
+msgid "Toggle"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:543
+msgid "Slide"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:553
+msgid "Choose the appearance style of your filters"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:557
+msgid "Toggle Whole Filter?"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:568
+#: includes/modules/FilterPosts/FilterPosts.php:664
+msgid "Enable this when you want to show your filters by toggle."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:572
+msgid "Mobile Toggle Style"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:575
+msgid "Button"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:589
+msgid ""
+"Choose the type of Toggle style you want - how the visitor will open to see "
+"the filters."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:593
+msgid "Auto-Close Toggle on Filter"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:602
+msgid "Enable this if you want the filter to auto-close when making a selection."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:606
+msgid "Filter Toggle Button Text"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:611
+#: includes/modules/FilterPosts/FilterPosts.php:620
+msgid "Choose the name of the button that when they press it will toggle the filter"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:615
+msgid "Filter Toggle Button Text(Hide)"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:624
+msgid "Toggle Individual Filters?"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:632
+msgid "Enable this when you want to enable toggles for each filter on mobile."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:636
+msgid "Filter Toggle Icon"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:642
+msgid "Choose the icon you want to use to slide the filter."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:647
+msgid "Filter Toggle Icon Color"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:649
+msgid "Here you can define a custom color for your icon."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:655
+msgid "Sticky Toggle Position"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:668
+msgid "Slide Toggle Button"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:672
+msgid "Input the ID of the html element to slide filter module when it is clicked."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:676
+msgid "Button Hide Filter Text"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:678
+msgid "Hide Filter"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:680
+msgid ""
+"Input the text of the slide toggler button to close filter module when it "
+"is opened."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:684
+msgid "Hide Reset Button?"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:695
+msgid "If you want to hide the reset button, enable this."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:699
+msgid "Align Reset Button"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:713
+msgid "Select this option if you want to align the reset button with search button."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:716
+msgid "Show Reset button only after filter change?"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:724
+msgid ""
+"If you want the reset button to only show when they make a change to the "
+"filters, enable this."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:728
+msgid "Filter Item From Top"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:742
+msgid "Filter Item Background Color"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:746
+msgid "This will change the fill color for the filter item background."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:750
+msgid "Filter Item Padding Top"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:764
+msgid "Filter Item Padding Right"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:778
+msgid "Filter Item Padding Bottom"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:792
+msgid "Filter Item Padding Left"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:806
+msgid "Toggle Icon"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:812
+msgid "Choose the icon to open the toggle."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:818
+msgid "Toggle Close Icon"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:825
+msgid "Choose the icon to close the toggle."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:830
+msgid "Toggle dropdown padding"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:844
+msgid "Set the padding of the toggle drop down box."
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:847
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:2007
+msgid "Space Above Item"
+msgstr ""
+
+#: includes/modules/FilterPosts/FilterPosts.php:852
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:2012
+msgid "This will adjust the spacing above the item."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:20
+msgid "Archive Loop - Divi Machine"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:45
+msgid "Terms on load ONLY"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:48
+msgid "Sorting"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:55
+msgid "Extra Options"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:60
+msgid "Alignment"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:87
+msgid "Default Layout - Excerpt"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:129
+msgid "Default Layout - Box Shadow"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:190
+msgid "Related"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:191
+msgid "Linked Post"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:195
+msgid "Saved List (Machine Account)"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:196
+msgid "Current Users Posts"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:217
+msgid "Custom Loop Layout"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:225
+msgid "Choose the layout you have made for each post in the loop."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:244
+msgid "Animation Icon Color"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:252
+msgid "Loading Background Color"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:261
+msgid "No Posts Layout"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:266
+msgid "Choose the layout that will be shown if there are no posts in the selection."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:269
+msgid "No Posts Text"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:273
+msgid "Sorry, No posts."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:274
+msgid "Choose the default text when no posts are retrieved"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:295
+msgid "Post Status"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:298
+msgid "Publish"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:299
+msgid "Pending"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:300
+msgid "Draft"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:301
+msgid "Auto-draft"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:302
+msgid "Future"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:303
+msgid "Private"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:304
+msgid "Inherit"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:311
+msgid "Choose the status of the posts you want to show."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:316
+msgid "Include current post?"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:324
+msgid ""
+"By default we will exclude the current post. If you want to show it in the "
+"loop, enable this."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:329
+msgid "Post Count"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:336
+msgid "Choose how many posts you would like to display per page."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:342
+msgid "Post Offset Number"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:348
+msgid ""
+"Choose how many posts you would like to skip. These posts will not be shown "
+"in the feed."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:354
+msgid "Post Display Type"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:362
+msgid ""
+"Choose the display type. If you want to have related posts for example, we "
+"will find posts in the same categories or tags to show."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:365
+msgid "Choose saved type"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:371
+msgid ""
+"Choose which saved type you want the icon to be for - you can change this "
+"in Machine Account settings."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:380
+msgid "Linked Post Object ACF Name"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:386
+msgid "Select the Post Object that you have used to link this post to another"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:395
+msgid "Related Content"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:398
+msgid "Categories"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:399
+msgid "Tags"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:400
+msgid "Custom Taxonomy"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:401
+msgid "Post Object"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:409
+msgid "Choose what would define the posts to be related."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:416
+msgid "Categories Type"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:420
+msgid "Post Categories"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:426
+msgid ""
+"If you have used Divi Machine to make your custom post and categories "
+"(custom) - leave as default. if you have custom coded your custom post and "
+"made the categories share with posts - select \"Post Categories\"."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:433
+msgid "Is this inside a category loop module?"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:441
+msgid ""
+"If you are tring to show posts that are inside in the category and this is "
+"inside a category module loop layout, enable this."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:448
+msgid "Specific Posts"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:459
+msgid ""
+"If you want to show specific posts based on the post object - enable this. "
+"If not, we will find other posts based on the post object."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:468
+msgid "Tags Type"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:472
+msgid "Post Tags"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:478
+msgid ""
+"If you have used Divi Machine to make your custom post and tags (custom) - "
+"leave as default. if you have custom coded your custom post and made the "
+"tags share with posts - select \"Post Tags\"."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:484
+msgid "Related - Exclude Categories (ID comma-seperated)"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:490
+msgid ""
+"If you want some categories to be excluded from the related posts, add the "
+"IDs here (comma-seperated) "
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:496
+msgid "Related - Exclude Tags (ID comma-seperated)"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:502
+msgid ""
+"If you want some tags to be excluded from the related posts, add the IDs "
+"here (comma-seperated) "
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:507
+msgid "Related Taxonomy Name"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:512
+msgid "Put the taxonomy name(not label) to show related posts with."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:517
+msgid "Post Object ACF Name"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:523
+msgid ""
+"Select the Post Object that you want your related posts to look at to show "
+"these posts"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:530
+msgid "Include Categories (Slug comma-seperated)"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:538
+msgid ""
+"Add a list of categories you want to include to show. This will remove all "
+"posts that dont have these categories. (comma-seperated)"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:544
+msgid "Include Tags (Slug comma-seperated)"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:552
+msgid ""
+"Add a list of tags that you want to include to show. This will remove all "
+"posts that dont have these tags. (comma-seperated)"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:558
+msgid "Exclude Categories (Slug comma-seperated)"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:566
+msgid ""
+"Add a list of categories you want to exclude to show. This will remove all "
+"posts that have these categories. (comma-seperated)"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:572
+msgid "Exclude tags (Slug comma-seperated)"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:580
+msgid ""
+"Add a list of tags you want to exclude to show. This will remove all posts "
+"that have these tags. (comma-seperated)"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:583
+msgid "Exclude Posts"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:591
+msgid "Add a list of post ids that you want to exclude from show. (comma-seperated)"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:611
+msgid "Include Custom Taxonomy Values (comma-seperated)"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:626
+msgid "Include ACF Field"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:637
+msgid ""
+"If you want to show posts that only have a specific ACF field value, "
+"specify the field here and then the value below"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:643
+msgid "Include ACF Value"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:651
+msgid ""
+"Add the value here, it will show posts only with the value of the ACF field "
+"above"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:731
+msgid "ACF Field"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:732
+#: includes/modules/MachineLoop/MachineLoop.php:775
+msgid "ACF Date Picker"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:733
+msgid "Linked Posts Order"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:750
+msgid "ACF Sort Field"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:756
+msgid "Choose your ACF Field to sort by,"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:761
+msgid "ACF Field Value Type"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:770
+msgid "Choose your acf field value type."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:781
+msgid "Choose your date picker ACF item"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:788
+msgid "ACF Date Picker Method"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:792
+msgid "Today Only"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:793
+msgid "Today and in the future"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:794
+msgid "Today and next x days"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:795
+msgid "In the Past"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:796
+msgid "Last 7 days (including today)"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:797
+msgid "Yesterday and past x days"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:810
+msgid "x days"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:817
+msgid "Set the number of days you want it to be."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:824
+msgid "Order"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:850
+msgid ""
+"If you want to show a way for the visitors to get more posts you can choose "
+"either Load More or Pagination. If you do not want this option - choose "
+"\"none\"."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:913
+msgid "Show result count?"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:923
+msgid "If you want to display result count - enable this."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:935
+msgid "Result Count Position"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:942
+msgid "Select the position that you want to show the result count."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:948
+msgid "Single Result Count Text"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:956
+msgid "Choose the default text for single results count."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:960
+msgid "All Result Count Text"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:968
+msgid "Choose the default text for all results count."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:972
+msgid "Pagination Result Count Text"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:980
+msgid "Choose the default text for pagination results count."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:984
+msgid "Has Map"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:991
+msgid "If you have a map to show your posts - enable this."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1006
+msgid "Map Selector"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1009
+msgid "Input ID or Class name of Map element."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1012
+msgid "Show All Posts on the map?"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1019
+msgid "If you want to show all your posts disregarding pagination - enable this."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1027
+msgid "Limit number of pins on map (when showing all pins)"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1033
+msgid ""
+"If you are showing all pins on the map but also want to limit this - enter "
+"the number here. \"-1\" will show all"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1038
+msgid "Marker Tooltip Layout"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1043
+msgid "Select layout for Marker tooltip"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1046
+msgid "Tooltip Shortcode (advanced users)"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1049
+msgid ""
+"If you want to create your own HTML and use a shortcode to insert into the "
+"tooltip - add the shortcode here (Do not include []) - for example if your "
+"shortcode is called [shortcode_name] - just add: shortcode_name."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1055
+msgid "Ajax load Market Tooptip layout?"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1062
+msgid ""
+"If you want there to be no layouts loaded on the initial load - but ONLY "
+"when they click on the marker, enable this."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1068
+msgid "Hide Marker Label?"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1078
+msgid "Enable this if you don't want to show label on the marker."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1083
+msgid "Cluster Map?"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1093
+msgid "Enable this if you want the map to have cluster or not."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1100
+msgid "Link each layout to single page"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1107
+#: includes/modules/MachineLoop/MachineLoop.php:1121
+msgid "Enable this if you want to link each loop layout to the single post."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1111
+msgid "Open to External URL?"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1125
+msgid "External ACF Text Field"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1132
+msgid "Choose the ACF you want to use to tell the system where to link to"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1149
+msgid "Show Detail in the Same page"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1163
+#: includes/modules/MachineLoop/MachineLoop.php:1191
+msgid ""
+"Enable this if you want to show post detail to the specific section in same "
+"page."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1166
+msgid "Content Wrapper Selector"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1168
+msgid "Input the selector(id/class selector) to show the post detail in the page."
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1175
+msgid "Post Detail Layout"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1180
+msgid "Select layout for Post Detail"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1184
+msgid "Show in the Same Row on Mobile"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1195
+msgid "Grid Style"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1208
+msgid "Choose how you want your posts to be shown"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1365
+msgid "Button Alignment"
+msgstr ""
+
+#: includes/modules/MachineLoop/MachineLoop.php:1366
+msgid "Align your button to the left, right or center of the module."
+msgstr ""
+
+#: includes/modules/PostTitle/PostTitle.php:25
+msgid "PL Title - Product Page / Loop Layout"
+msgstr ""
+
+#: includes/modules/PostTitle/PostTitle.php:29
+msgid "Post Title - Divi Machine"
+msgstr ""
+
+#: includes/modules/PostTitle/PostTitle.php:33
+msgid "Post Title - Archive Pages"
+msgstr ""
+
+#: includes/modules/PostTitle/PostTitle.php:89
+msgid "Product Title"
+msgstr ""
+
+#: includes/modules/PostTitle/PostTitle.php:112
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/modules/PostTitle/PostTitle.php:224
+msgid "Title HTML Tag"
+msgstr ""
+
+#: includes/modules/PostTitle/PostTitle.php:236
+msgid ""
+"Set the title tag. For example you may want it to be h3 or h4 on the custom "
+"layout."
+msgstr ""
+
+#: includes/modules/PostTitle/PostTitle.php:239
+msgid "Link Title to Single Page"
+msgstr ""
+
+#: includes/modules/PostTitle/PostTitle.php:250
+msgid ""
+"Enable this if you want to allow the user to click on the title to go to "
+"the single/product page."
+msgstr ""
+
+#: includes/modules/PostTitle/PostTitle.php:253
+#: includes/modules/Thumbnail/Thumbnail.php:295
+msgid "Open In New Tab?"
+msgstr ""
+
+#: includes/modules/PostTitle/PostTitle.php:263
+#: includes/modules/Thumbnail/Thumbnail.php:305
+msgid "Enable this if you want the link to open in a new tab."
+msgstr ""
+
+#: includes/modules/PostTitle/PostTitle.php:266
+msgid "Get Title From"
+msgstr ""
+
+#: includes/modules/PostTitle/PostTitle.php:270
+msgid ""
+"Post is default. But if you are using Divi Machine or BodyCommerce and "
+"using category loop layout for example, choose \"Category\"."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:31
+msgid "Search/Filter Item"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:32
+msgid "New Search/Filter Item"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:33
+msgid "Search/Filter Item Settings"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:38
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:44
+msgid "New Filter Item"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:39
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:45
+msgid "Filter Item Settings"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:76
+msgid "Main"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:77
+msgid "Layout"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:79
+msgid "Select"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:80
+msgid "Category, Tags &amp; Taxonomy"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:81
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:102
+msgid "Checkbox / Radio"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:82
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:129
+msgid "Range"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:83
+msgid "True/False"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:117
+msgid "Checkbox Style"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:141
+msgid "Limit Height"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:152
+msgid "Select Style"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:153
+msgid "Swatch"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:154
+msgid "Collapsible Toggle icon"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:171
+msgid "Inputs"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:206
+msgid "Radio / Checkbox Post Count"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:221
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1437
+msgid "Checkbox / Radio Style"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:236
+msgid "Checkbox / Radio Checked Style"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:251
+msgid "Range Primary"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:266
+msgid "Range Secondary"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:281
+msgid "Limit Show More"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:296
+msgid "Limit Show Less"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:319
+msgid "Radio / Checkbox Button"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:338
+msgid "Active Radio / Checkbox Button"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:424
+msgid "Filter Items"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:546
+msgid "Admin Filter Name"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:548
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1259
+msgid ""
+"Change the name of the filter for admin purposes ONLY, this is just used so "
+"you can see what the filter is."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:555
+msgid "What do you want to search/filter?"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:585
+msgid "Choose what you want to search or filter"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:589
+msgid "Typing delay to filter"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:601
+msgid ""
+"Choose the delay it takes for the person to stop typing, for the filter to "
+"start searching."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:620
+msgid "Choose the post type that you want to filter"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:627
+msgid "Custom Meta Name"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:632
+msgid "Custom Meta Name for filtering."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:636
+msgid "ACF Name"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:645
+msgid ""
+"Choose the ACF item that you want to filter by. Make sure it belongs to the "
+"post type you have/want to filter. It cannot be inside a group or repeater "
+"type. "
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:649
+msgid "ACF Map Name"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:655
+msgid ""
+"Choose the ACF Map item that you want to filter by. Make sure it belongs to "
+"the post type you have/want to filter. It cannot be inside a group or "
+"repeater type. "
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:659
+msgid "Radius Field Placeholder"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:664
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:673
+msgid "Input the placeholder text for your radius field."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:668
+msgid "Radius Field Value"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:677
+msgid "ACF Map Radius Unit"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:680
+msgid "Km"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:681
+msgid "Mile"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:686
+msgid "Choose the Unit of the radius for search by address or zip code."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:690
+msgid "Place Map Search Fields inline?"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:699
+msgid ""
+"If you want to display Address Field and Radius Field in one row, enable "
+"this."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:703
+msgid "Make Radius Field as Dropdown?"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:712
+msgid "If you want to radius field in dropdown box, enable this."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:719
+msgid "Radius Field Dropdown Values"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:724
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:864
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1936
+msgid "Enable this to show only subcategories of selected or current category."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:728
+msgid "Product Attributes"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:734
+msgid "Add the name of the Product Attribute you want to display here"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:738
+msgid "Show Attributes Swatches"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:749
+msgid ""
+"If you want to display swatches on the filter, check this option. Filter "
+"type will be ignored if this option is on."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:753
+msgid "Filter Type"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:770
+msgid "Choose how you want the filter to be displayed"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:774
+msgid "Range Type"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:786
+msgid "Choose how the range type you want"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:790
+msgid "Min Price Setting"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:802
+msgid "Choose how you want the get min price in price range."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:806
+msgid "Max Price Setting"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:818
+msgid "Choose how you want the get max price in price range."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:822
+msgid "Filter Value Type"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:836
+msgid ""
+"Select the type of filter you are using - for example if it is a select or "
+"radio filter - it should be a string. If you are using a range or number "
+"filter, you need to choose either numeric or with decimal depending on how "
+"you have your numbers formatted."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:840
+msgid "Category/Tag/Taxonomy Terms Order"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:853
+msgid "Select SortBy option for Category/Tag/Taxonomy/ACF/Meta Filter options."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:857
+msgid "Sub Taxonomy Prefix"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:868
+msgid "Show Filter Parameters"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:877
+msgid ""
+"If you want to have the filter selections show up above the archive loop so "
+"the customer can see and remove them, enable this."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:881
+msgid "Include Options"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:894
+msgid ""
+"Input option values you want to include only for filter - comma seperated "
+"for multiple values."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:898
+msgid "Exclude Options"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:911
+msgid ""
+"Input option values you want to exclude from filter - comma seperated for "
+"multiple values."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:915
+msgid "Display filter count?"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:927
+msgid "Choose if you want to show the filter count for every option."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:932
+msgid "Filter Count Distance from Top"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:941
+msgid "Specify the distance from the top for the count."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:946
+msgid "Show Label"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:957
+msgid "Enable or disable the label."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:962
+msgid "Custom label (leave blank for default label)"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:966
+msgid "Add a custom label here or leave it blank to get the default label."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:970
+msgid "Display empty filter option? (Select/Radio/Checkbox Only)"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:982
+msgid "Choose if you want to show empty filter options."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:987
+msgid "Only show available Options on Load? (archive/category pages only)"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:999
+msgid ""
+"If you want to show only the categories, tags or custom taxonomies that are "
+"linked to the posts queried on the page - enable this"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1004
+msgid "Hide the module when filter has no options"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1015
+msgid ""
+"If you want to hide the whole module when there is no options avaliable - "
+"enable this"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1024
+msgid "Filter Width"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1036
+msgid "Choose the width of the filter"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1046
+msgid "Range Hide Min and Max Labels"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1061
+msgid "Range Hide From and To Labels"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1076
+msgid "Range Values Type"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1079
+msgid "Default (From and To)"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1080
+msgid "From ACF Value (From and To)"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1081
+msgid "Custom Values"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1088
+msgid ""
+"Most will be default - but if you want to set your own numbers and pattern, "
+"enable custom"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1092
+msgid "Range From Number"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1097
+msgid "Choose the default from number."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1101
+msgid "Range To Number"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1106
+msgid "Choose the default to number."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1110
+msgid "Set your Custom Values"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1114
+msgid ""
+"Add your custom values steps - comma seperated. BE CAREFUL - You have to "
+"have the from and to numbers above as one of these numbers in the comma "
+"seperated list for us to add the default values"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1119
+msgid "Range Breakpointer"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1123
+msgid ""
+"Input the number to break the range slider(Other max values will be "
+"represented to Breakpoint value +, ex:50+)."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1127
+msgid "Number / Range Step"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1131
+msgid "Choose the number it steps up."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1135
+msgid "Number / Range Appearance Style"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1138
+msgid "Flat"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1139
+msgid "Big"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1140
+msgid "Modern"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1141
+msgid "Sharp"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1142
+msgid "Round"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1143
+msgid "Square"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1147
+msgid "Choose the appearance style of the slider"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1150
+msgid "Range Primary Color"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1165
+msgid "Range Secondary Color"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1181
+msgid "Number / Range Prettify"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1193
+msgid ""
+"Enable this if you want to pretify your text, improve readibility of long "
+"numbers. 10000000 → 10 000 000"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1197
+msgid "Number / Range Prettify Separator"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1201
+msgid "Set up your own separator for long numbers. 10 000, 10.000, 10-000 etc."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1205
+msgid "Number / Range Before Text"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1209
+msgid "Set the text for values. Will be set up right before the number: $100"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1213
+msgid "Number / Range After Text"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1217
+msgid "Set the text for values. Will be set up right after the number: 100k"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1221
+msgid "True Text"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1225
+msgid "Set the text you want to appear when it is \"true\""
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1232
+msgid "False Text"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1236
+msgid "Set the text you want to appear when it is \"false\""
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1249
+msgid "Logic ID"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1251
+msgid ""
+"Define the unique ID of this field. You should use only English characters "
+"without special characters and spaces."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1257
+msgid "Logic Title"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1265
+msgid "Enable"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1277
+msgid ""
+"Enabling conditional logic makes this field only visible when any or all of "
+"the rules below are fulfilled<br><strong>Note:</strong> Only fields with an "
+"unique and non-empty field ID can be used"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1281
+msgid "Relation"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1285
+msgid "All"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1286
+msgid "Any"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1293
+msgid "Choose whether any or all of the rules should be fulfilled"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1297
+msgid "Rules"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1312
+msgid "Placeholder Text"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1319
+msgid "Add the placeholder for the text input."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1323
+msgid "Make text a number input?"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1334
+msgid "If you want the text input to be a number input (only numeric) - enable this"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1343
+msgid "Enable Select2? (make sure to enable in Filter Module too)"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1351
+msgid "If you want this filter to have Select2 - enable this."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1364
+msgid "First Option Text"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1367
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1461
+msgid "-- Select Option --"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1376
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1463
+msgid "Choose what the first option of the select option will be."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1385
+msgid "Checkbox / Radio Button Functionality"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1388
+msgid "Choose One"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1389
+msgid "Multiple Select"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1400
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1454
+msgid "Choose the style of your radio buttons"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1404
+msgid "Enable Deselect of Radio Button?"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1420
+msgid ""
+"If you are using radio buttons you cannot deselect it by default, enable "
+"this to disable the radio when you click the checked one."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1424
+msgid "Filter combination option for Multiple selection"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1427
+msgid "OR"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1428
+msgid "AND"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1433
+msgid "Filter option for multiselected options."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1441
+msgid "Divi Style"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1442
+msgid "Buttons"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1443
+msgid "Select Drop Down"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1458
+msgid "Select Label Text"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1467
+msgid "Checkbox or Radio?"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1470
+msgid "Radio"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1471
+msgid "Check"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1479
+msgid "Choose whether you want radio or checkboxes"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1483
+msgid "Display Checkbox / Radio Inline?"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1498
+msgid "Choose if you want the checkboxes to be inline or on their own line"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1503
+msgid "Gap Between each item"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1508
+msgid "Specify the gap you want between each item that is inline."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1512
+msgid "Hide All option"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1524
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1532
+msgid ""
+"Define the text you want to be shown as the \"all\" checkbox to show all "
+"the values."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1528
+msgid "All Label Text"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1542
+msgid "Limit Height of Radio/Checkbox filters?"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1553
+msgid ""
+"If you want to limit the height of the filters with an option to toggle "
+"more, enable this."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1558
+msgid "Max Height of the Filter Item"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1575
+msgid "Show More Text"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1581
+msgid "Enter the text you want to appear to toggle more"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1586
+msgid "Show Less Text"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1592
+msgid "Enter the text you want to appear to toggle less"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1595
+msgid "Show More Icon"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1596
+msgid "Define the icon that appears after the show more text"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1607
+msgid "Show Less Icon"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1608
+msgid "Define the icon that appears after the show less text"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1619
+msgid "Show More/Less Icon Size"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1627
+msgid "Change the size of the icon."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1630
+msgid "Show More/Less Icon Position Top"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1643
+msgid "Change the position from the top of the icon."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1646
+msgid "Show More/Less Icon Position Right"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1659
+msgid "Change the position from the right of the icon."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1677
+msgid "Checkbox Background Color"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1682
+msgid "This will change the fill color for the checkbox or radio button background."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1689
+msgid "Checkbox Background Color Selected"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1694
+msgid ""
+"This will change the fill color for the checkbox or radio button background "
+"when selected/clicked."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1711
+msgid "Swatch Style"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1721
+msgid "When using a color, image or label swatch - choose the style here."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1729
+msgid "Swatch Width"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1733
+msgid "Specify the swatch width."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1741
+msgid "Swatch Height"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1745
+msgid "Specify the swatch height."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1752
+msgid "Swatch Background Color"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1755
+msgid "Change the color of the swatch background."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1763
+msgid "Swatch Border Color"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1766
+msgid "Change the color of the swatch border."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1774
+msgid "Active Swatch Background Color"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1777
+msgid "Change the color of the swatch background when active."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1785
+msgid "Active Swatch Border Color"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1788
+msgid "Change the color of the swatch border when active."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1797
+msgid "Swatch Border Width"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1801
+msgid "Change the width of the border."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1808
+msgid "Star Background Color"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1811
+msgid "Change the color of the star background."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1820
+msgid "Star Color"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1823
+msgid "Change the color of the star rating."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1833
+msgid "Star Color Active"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1837
+msgid "Change the color of the star rating when active."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1850
+msgid "Category Display Mode"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1854
+msgid "Only Parent Categories"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1855
+msgid "Only Sub Categories of Selected Category"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1856
+msgid "Sub Categories of Current Category (Category page only)"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1857
+msgid "All Categories and Sub categories"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1860
+msgid "Select option which categories you want to display."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1871
+msgid "Parent Category"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1875
+msgid "Input a parent category slug of the categories that you want to display."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1880
+msgid "Disable Hierarchical?"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1891
+msgid ""
+"Enable this to show only sub categories of selected or current category (do "
+"not show grandchildren)."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1895
+msgid "Sub Category Identification"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1898
+msgid "Prefix"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1899
+msgid "Indent"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1906
+msgid ""
+"Choose how you want your sub categories to appear, so the user knows it is "
+"a child."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1911
+msgid "Indent Spacing"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1928
+msgid "Sub Category Prefix"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1940
+msgid "Collapsible Sub Categories?"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1951
+msgid ""
+"Enable this if you want to have the sub-categories expand and collapse when "
+"clicking."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1955
+msgid "Disable Filter on Parent?"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1966
+msgid ""
+"Enable this if you want to disable the filter of the posts when clicking on "
+"the parent, this will expand the list without filtering."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1969
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1982
+msgid "Category Collapse Toggle Icon"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1970
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1983
+msgid "Define the icon for toggling categories collapse"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:1995
+msgid "Category Collapse Toggle Color"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:2000
+msgid ""
+"This will change the fill color of the chevron icon to toggle the "
+"sub-categories."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:2017
+msgid "Filter Item Padding"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:2019
+msgid "Set padding for the filter item not including the label"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:2027
+msgid "Filter Item Margin"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:2029
+msgid "Set margin for the filter item not including the label"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:5109
+msgid "This taxonomy contains non numeric value."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:5221
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:5251
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:6105
+msgid "Remove Filter"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:5643
+msgid "This attribute contains non numeric value."
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:6144
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:6194
+msgid "No Rating"
+msgstr ""
+
+#: includes/modules/SearchPostsItem/SearchPostsItem.php:6144
+msgid "%d Rating(s)"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:23
+msgid "LL Thumbnail - Loop Layout"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:27
+msgid "Thumbnail - Divi Machine"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:31
+msgid "Thumbnail - Divi Ajax Filter"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:77
+msgid "Thumbnail Box Shadow"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:187
+#: includes/modules/Thumbnail/Thumbnail.php:194
+#: includes/modules/Thumbnail/Thumbnail.php:200
+msgid "Image Only (no overlay)"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:188
+#: includes/modules/Thumbnail/Thumbnail.php:195
+msgid "Flip Image"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:214
+msgid "Thumbnail Image Size"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:221
+msgid "Pick a size for the thumbnail image from the list."
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:224
+msgid "Link Image to Single Page"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:234
+msgid ""
+"Enable this if you want to allow the user to click on the image to go to "
+"the single page.)"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:237
+msgid "Enable placeholder image (ACF)?"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:247
+msgid ""
+"Enable this if you want a placeholder incase no one uploads a featured "
+"image. If using WooCommerce it will look for the default WooCommerce "
+"placeholder and not this setting.)"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:250
+msgid "Variation Image Change?"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:258
+msgid ""
+"Enable this if you want the thumbnail to change to the variation if you "
+"have images set for each variation. This used alongside the add to cart "
+"module, with the setting \"show variation on archive page\"."
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:261
+msgid "Placeholder Image"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:264
+msgid "Upload an image"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:265
+msgid "Choose an Image"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:266
+msgid "Set As Image"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:268
+msgid ""
+"Upload your desired image, or type in the URL to the image you would like "
+"to display."
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:275
+msgid "Image Alternative Text"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:282
+msgid ""
+"This defines the HTML ALT text. A short description of your image can be "
+"placed here."
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:285
+msgid "Image Title Text"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:292
+msgid "This defines the HTML Title text."
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:308
+msgid "Enable Title Tag?"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:317
+msgid "Enable this if you want to have a title tag on the image."
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:320
+msgid "Image Style"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:327
+msgid ""
+"Choose what style of thumbnail you want, for example if you want the first "
+"image of your gallery to flip to when hovering over the thumbnail, select "
+"\"Flip Hover\". Flip image only works with BodyCommerce or ACF installed"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:330
+msgid ""
+"Choose Second Image (ACF Only), leave blank for WooCommerce gallery 2nd "
+"image"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:335
+msgid ""
+"For WooCommerce, leave blank if you want the second image int he gallery to "
+"show. Choose the second image you want to show when hovered (flip) if you "
+"want an ACF image to show"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:338
+msgid "Icon Hover Color"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:345
+msgid "Hover Overlay Color"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:352
+msgid "Hover Icon Picker"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:362
+msgid "Here you can define a custom icon for the overlay"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:365
+msgid "Image Alignment"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:374
+msgid "Here you can choose the image alignment."
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:378
+msgid "Force Fullwidth"
+msgstr ""
+
+#: includes/modules/Thumbnail/Thumbnail.php:393
+msgid "Always Center Image On Mobile"
+msgstr ""
+
+#: lib/variation-swatches.php:24 lib/variation-swatches.php:108
+msgid "Color"
+msgstr ""
+
+#: lib/variation-swatches.php:30 lib/variation-swatches.php:117
+msgid "Image"
+msgstr ""
+
+#: lib/variation-swatches.php:36
+msgid "Label"
+msgstr ""
+
+#: lib/variation-swatches.php:109
+msgid "Enter in the color code"
+msgstr ""
+
+#: lib/variation-swatches.php:118 lib/variation-swatches.php:826
+msgid "Enter Image URL Here"
+msgstr ""
+
+#: lib/variation-swatches.php:255
+msgid "Select terms"
+msgstr ""
+
+#: lib/variation-swatches.php:266
+msgid "Select all"
+msgstr ""
+
+#: lib/variation-swatches.php:267
+msgid "Select none"
+msgstr ""
+
+#: lib/variation-swatches.php:273
+msgid "Add new %s"
+msgstr ""
+
+#: lib/variation-swatches.php:273 lib/variation-swatches.php:275
+msgid "Add new"
+msgstr ""
+
+#: lib/variation-swatches.php:427 lib/variation-swatches.php:438
+#: lib/variation-swatches.php:496 lib/variation-swatches.php:507
+#: lib/variation-swatches.php:565 lib/variation-swatches.php:576
+#: lib/variation-swatches.php:633 lib/variation-swatches.php:644
+msgid "Choose an option"
+msgstr ""
+
+#: lib/variation-swatches.php:725
+msgid "Swatches Settings"
+msgstr ""
+
+#: lib/variation-swatches.php:827
+msgid "Add Attribute"
+msgstr ""
+
+#: lib/variation-swatches.php:828
+msgid "Add"
+msgstr ""
+
+#: lib/variation-swatches.php:829
+msgid "Cancel"
+msgstr ""
+
+#: lib/variation-swatches.php:830
+msgid "Use Image"
+msgstr ""
+
+#: lib/variation-swatches.php:831
+msgid "Add Media"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Divi Ajax Filters"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create Ajax Filters for WooCommerce & ACF. Best used with one of our "
+"plugins BodyCommerce or Machine."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://diviengine.com"
+msgstr ""
+
+#: includes/ajaxcalls/post_ajax.php:2687
+msgctxt "with first and last result"
+msgid "Showing %d-%d of %d result"
+msgid_plural "Showing %d-%d of %d results"
+msgstr[0] ""
+msgstr[1] ""

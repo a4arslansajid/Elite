@@ -1,0 +1,51 @@
+#epanel-content.divi-engine .et-tab-content{
+	font-size: 16px;
+}
+
+#epanel-content.divi-engine .et-tab-content a{
+	font-weight: 700;
+}
+
+#epanel-content .et-tab-content h4.subheading{
+	background-color: #7e3bd0;
+	box-sizing: border-box;
+    color: white;
+    padding: 13px 26px;
+    transition: all 0.3s;
+    outline: 0;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 15px -30px;
+    font-weight: 600;
+}
+
+#epanel-content.divi-engine .et-tab-content h4.subheading{
+	font-size: 20px;
+	line-height: 20px;
+	margin: 30px -30px;
+}
+
+#epanel-content .et-tab-content h4.subheading:first-child{
+	margin-top: -30px;
+}
+
+.postbox .inside .et-box-content{
+	width: 200px;
+}
+
+.form-table td {
+    margin-bottom: 9px!important;
+    padding: 15px 10px!important;
+    line-height: 1.3!important;
+    vertical-align: middle!important;
+}
+
+.form-table th {
+    vertical-align: top!important;
+    text-align: left!important;
+    padding: 20px 10px 20px 0!important;
+    width: 200px!important;
+    line-height: 1.3!important;
+    font-weight: 600!important;
+}
+
