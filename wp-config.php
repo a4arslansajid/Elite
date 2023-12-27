@@ -51,13 +51,13 @@ define( 'DB_NAME', 'towelpro_wp9' );
 
 /** Database username */
 
-define( 'DB_USER', 'towelpro_wp9' );
+define( 'DB_USER', 'developer' );
 
 
 
 /** Database password */
 
-define( 'DB_PASSWORD', 'G.lNCQFvDGobcYEPaLR41' );
+define( 'DB_PASSWORD', 'Elit@2019#[.i.]' );
 
 
 
